@@ -37,11 +37,6 @@ relationship 48946e35-13a0-4033-ba07-e39c055e54c6
 	fromColumn: Targets.Period
 	toColumn: LocalDateTable_e18db10b-b352-4748-be98-031bd49a066f.Date
 
-relationship a01e980e-42de-40ce-add2-3cbdad90b974
-	joinOnDateBehavior: datePartOnly
-	fromColumn: Sales.Date
-	toColumn: LocalDateTable_d2d09e47-7d9e-4608-81e3-1b5fa491206d.Date
-
 relationship AutoDetected_9ef13200-a8b2-4d5a-8069-a702de21baa0
 	fromColumn: Sales.ClientID
 	toColumn: Clients.ClientID
@@ -61,4 +56,33 @@ relationship AutoDetected_5ba2b370-dbbd-4fa1-98b0-345d82aa2ca5
 relationship AutoDetected_8a6b4636-61f0-4857-b68a-e4987e7da32c
 	fromColumn: Shipping.SaleID
 	toColumn: Sales.SaleID
+
+relationship 99c56348-b01f-4ea8-88db-d3e6b7cd4751
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.'Start of Quarter'
+	toColumn: LocalDateTable_0d104df5-49ab-4a2c-a06c-af36da4522b3.Date
+
+relationship dbfaf587-61b7-48ff-a271-4603699bbd90
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.'End of Quarter'
+	toColumn: LocalDateTable_5e526f8c-4376-4f5b-afd4-6faea6d4f192.Date
+
+relationship 9e5a6ca9-b870-480d-919b-1267a4d4ac39
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.'Start of Week'
+	toColumn: LocalDateTable_53937201-7b59-4ad9-9bee-85ab988e804a.Date
+
+relationship 4df4faff-ce4e-4897-9b2a-132db7f0bd3a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.'End of Week'
+	toColumn: LocalDateTable_96a4560e-ed83-4f95-b436-0c010d60adcb.Date
+
+relationship 5cf85444-2bca-9077-38aa-657e9401c7a3
+	fromColumn: Sales.Date
+	toColumn: Calendar.Date
+
+relationship 4b8b35c3-3b3f-4631-ad1b-43727538e303
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.Date
+	toColumn: LocalDateTable_65e6b67f-506d-483b-a156-f85a60170b6e.Date
 

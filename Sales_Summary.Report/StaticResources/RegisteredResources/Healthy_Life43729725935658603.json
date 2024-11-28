@@ -1,0 +1,64 @@
+{
+  "name": "Healthy Life",
+  "textClasses": {
+    "label": {
+      "color": "#414040",
+      "fontFace": "Candara"
+    },
+    "callout": {
+      "fontFace": "'Cambria Math'"
+    },
+    "title": {
+      "color": "#413F3F",
+      "fontFace": "Candara"
+    },
+    "header": {
+      "fontFace": "Candara",
+      "fontSize": 11
+    }
+  },
+  "dataColors": [
+    "#6BABC2",
+    "#548AB8",
+    "#FFF9F2",
+    "#6A9911",
+    "#CCF47C",
+    "#FFFFFF",
+    "#FF9999",
+    "#F8F99E"
+  ],
+  "visualStyles": {
+    "*": {
+      "*": {
+        "visualTooltip": [
+          {
+            "themedTitleFontColor": {
+              "solid": {
+                "color": "#615F5F"
+              }
+            },
+            "themedValueFontColor": {
+              "solid": {
+                "color": "#817F7F"
+              }
+            },
+            "actionFontColor": {
+              "solid": {
+                "color": "#8B8A8A"
+              }
+            }
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "themedTitleFontColor": {
+              "solid": {
+                "color": "#615F5F"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,194 @@
+table Calendar
+	lineageTag: c524e513-1271-4e88-9e58-cdf87f95ed86
+
+	column Date
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 2c297242-443a-4fc3-b632-b946f3a0abee
+		summarizeBy: none
+		sourceColumn: Date
+
+		variation Variation
+			isDefault
+			relationship: 4b8b35c3-3b3f-4631-ad1b-43727538e303
+			defaultHierarchy: LocalDateTable_65e6b67f-506d-483b-a156-f85a60170b6e.'Date Hierarchy'
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 4983bac8-cb11-4a53-b976-f073eaf3609e
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: int64
+		formatString: 0
+		lineageTag: 134d8d08-d161-426b-baaf-85f56206fb15
+		summarizeBy: sum
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: int64
+		formatString: 0
+		lineageTag: 161c3881-fc41-46c0-85ac-0b9e34a599ec
+		summarizeBy: sum
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column Day
+		dataType: int64
+		formatString: 0
+		lineageTag: 2ab91191-10a7-4647-b0ca-e0d01d6b9636
+		summarizeBy: sum
+		sourceColumn: Day
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Day Name'
+		dataType: string
+		lineageTag: 6c1bf9ef-fd8e-459b-b6c8-1ed06a502826
+		summarizeBy: none
+		sourceColumn: Day Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Start of Quarter'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d393a055-e671-4eae-bd3e-b6b8727d7304
+		summarizeBy: none
+		sourceColumn: Start of Quarter
+
+		variation Variation
+			isDefault
+			relationship: 99c56348-b01f-4ea8-88db-d3e6b7cd4751
+			defaultHierarchy: LocalDateTable_0d104df5-49ab-4a2c-a06c-af36da4522b3.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'End of Quarter'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: a1f2069f-ed0e-4a91-8f7a-9659230197a9
+		summarizeBy: none
+		sourceColumn: End of Quarter
+
+		variation Variation
+			isDefault
+			relationship: dbfaf587-61b7-48ff-a271-4603699bbd90
+			defaultHierarchy: LocalDateTable_5e526f8c-4376-4f5b-afd4-6faea6d4f192.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Week of Year'
+		dataType: int64
+		formatString: 0
+		lineageTag: c520b933-f1df-41a6-8b70-84aab5215fdd
+		summarizeBy: sum
+		sourceColumn: Week of Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Week of Month'
+		dataType: int64
+		formatString: 0
+		lineageTag: e564f285-0d48-4653-8260-f765073a65cd
+		summarizeBy: sum
+		sourceColumn: Week of Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Start of Week'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 5c95127e-4935-4c8f-8215-8e3fc03a2d51
+		summarizeBy: none
+		sourceColumn: Start of Week
+
+		variation Variation
+			isDefault
+			relationship: 9e5a6ca9-b870-480d-919b-1267a4d4ac39
+			defaultHierarchy: LocalDateTable_53937201-7b59-4ad9-9bee-85ab988e804a.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'End of Week'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: de74027f-429f-4d5a-a313-91fd45613c2b
+		summarizeBy: none
+		sourceColumn: End of Week
+
+		variation Variation
+			isDefault
+			relationship: 4df4faff-ce4e-4897-9b2a-132db7f0bd3a
+			defaultHierarchy: LocalDateTable_96a4560e-ed83-4f95-b436-0c010d60adcb.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Day of Week'
+		dataType: int64
+		formatString: 0
+		lineageTag: ae883cb2-c43a-4790-b62b-e93674ad4d24
+		summarizeBy: sum
+		sourceColumn: Day of Week
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Day of Year'
+		dataType: int64
+		formatString: 0
+		lineageTag: 9532b399-4a48-43b6-9e7f-2e0e81d695be
+		summarizeBy: sum
+		sourceColumn: Day of Year
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendar = m
+		mode: import
+		source =
+				let
+				    Source = List.Dates(#date(2020,1,1),3650, #duration(1,0,0,0)),
+				    #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+				    #"Renamed Columns" = Table.RenameColumns(#"Converted to Table",{{"Column1", "Date"}}),
+				    #"Inserted Year" = Table.AddColumn(#"Renamed Columns", "Year", each Date.Year([Date]), Int64.Type),
+				    #"Inserted Month" = Table.AddColumn(#"Inserted Year", "Month", each Date.Month([Date]), Int64.Type),
+				    #"Inserted Quarter" = Table.AddColumn(#"Inserted Month", "Quarter", each Date.QuarterOfYear([Date]), Int64.Type),
+				    #"Inserted Start of Quarter" = Table.AddColumn(#"Inserted Quarter", "Start of Quarter", each Date.StartOfQuarter([Date]), type date),
+				    #"Inserted End of Quarter" = Table.AddColumn(#"Inserted Start of Quarter", "End of Quarter", each Date.EndOfQuarter([Start of Quarter]), type date),
+				    #"Inserted Week of Year" = Table.AddColumn(#"Inserted End of Quarter", "Week of Year", each Date.WeekOfYear([Date]), Int64.Type),
+				    #"Inserted Week of Month" = Table.AddColumn(#"Inserted Week of Year", "Week of Month", each Date.WeekOfMonth([Date]), Int64.Type),
+				    #"Inserted Start of Week" = Table.AddColumn(#"Inserted Week of Month", "Start of Week", each Date.StartOfWeek([Date]), type date),
+				    #"Inserted End of Week" = Table.AddColumn(#"Inserted Start of Week", "End of Week", each Date.EndOfWeek([Date]), type date),
+				    #"Inserted Day" = Table.AddColumn(#"Inserted End of Week", "Day", each Date.Day([Date]), Int64.Type),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Inserted Day",{"Date", "Year", "Month", "Quarter", "Day", "Start of Quarter", "End of Quarter", "Week of Year", "Week of Month", "Start of Week", "End of Week"}),
+				    #"Inserted Day of Week" = Table.AddColumn(#"Reordered Columns", "Day of Week", each Date.DayOfWeek([Date]), Int64.Type),
+				    #"Inserted Day of Year" = Table.AddColumn(#"Inserted Day of Week", "Day of Year", each Date.DayOfYear([Date]), Int64.Type),
+				    #"Inserted Day Name" = Table.AddColumn(#"Inserted Day of Year", "Day Name", each Date.DayOfWeekName([Date]), type text),
+				    #"Reordered Columns1" = Table.ReorderColumns(#"Inserted Day Name",{"Date", "Year", "Month", "Quarter", "Day", "Day Name", "Start of Quarter", "End of Quarter", "Week of Year", "Week of Month", "Start of Week", "End of Week", "Day of Week", "Day of Year"})
+				in
+				    #"Reordered Columns1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

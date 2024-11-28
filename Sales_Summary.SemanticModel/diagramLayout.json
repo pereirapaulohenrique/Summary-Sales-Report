@@ -137,6 +137,32 @@
             "width": 234
           },
           "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 2385.349075956372,
+            "y": 319.9654251541964
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "2538f8f8-8391-44d9-92b6-0968cac0397d",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 11
+        },
+        {
+          "location": {
+            "x": 545.6931805232,
+            "y": 677.03455593720321
+          },
+          "nodeIndex": "Calendar",
+          "nodeLineageTag": "c524e513-1271-4e88-9e58-cdf87f95ed86",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 12
         }
       ],
       "name": "All tables",

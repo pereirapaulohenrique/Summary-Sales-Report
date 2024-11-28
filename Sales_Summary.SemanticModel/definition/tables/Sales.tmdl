@@ -26,11 +26,6 @@ table Sales
 		summarizeBy: none
 		sourceColumn: Date
 
-		variation Variation
-			isDefault
-			relationship: a01e980e-42de-40ce-add2-3cbdad90b974
-			defaultHierarchy: LocalDateTable_d2d09e47-7d9e-4608-81e3-1b5fa491206d.'Date Hierarchy'
-
 		annotation SummarizationSetBy = Automatic
 
 	column ClientID

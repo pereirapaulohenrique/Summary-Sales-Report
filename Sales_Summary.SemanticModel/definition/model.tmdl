@@ -10,7 +10,7 @@ annotation PBI_ProTooling = ["DevMode"]
 
 annotation PBIDesktopVersion = 2.138.1004.0 (24.11)
 
-annotation PBI_QueryOrder = ["Clients","Employees","Products","Promotions","Returns","Shipping","Suppliers","Targets","TaxRates","Sales"]
+annotation PBI_QueryOrder = ["Clients","Employees","Products","Promotions","Returns","Shipping","Suppliers","Targets","TaxRates","Sales","_Measures","Calendar"]
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
@@ -31,7 +31,13 @@ ref table Targets
 ref table LocalDateTable_e18db10b-b352-4748-be98-031bd49a066f
 ref table TaxRates
 ref table Sales
-ref table LocalDateTable_d2d09e47-7d9e-4608-81e3-1b5fa491206d
+ref table _Measures
+ref table Calendar
+ref table LocalDateTable_0d104df5-49ab-4a2c-a06c-af36da4522b3
+ref table LocalDateTable_5e526f8c-4376-4f5b-afd4-6faea6d4f192
+ref table LocalDateTable_53937201-7b59-4ad9-9bee-85ab988e804a
+ref table LocalDateTable_96a4560e-ed83-4f95-b436-0c010d60adcb
+ref table LocalDateTable_65e6b67f-506d-483b-a156-f85a60170b6e
 
 ref cultureInfo en-US
 
