@@ -1,24 +1,7 @@
-relationship 7cf43e2b-df63-40f3-b533-aecca892d74d
-	joinOnDateBehavior: datePartOnly
-	fromColumn: Sales.Date
-	toColumn: LocalDateTable_93226b1d-0263-4ecb-96e5-d65f3714a264.Date
-
-relationship AutoDetected_787fdc5f-bed1-4314-9dc1-ae03cd6d1743
-	fromColumn: Sales.ClientID
-	toColumn: Clients.ClientID
-
 relationship 968f4fa3-d26d-49b8-8471-4b33d15da32b
 	joinOnDateBehavior: datePartOnly
 	fromColumn: Employees.HireDate
 	toColumn: LocalDateTable_9aa7270b-4098-4fad-9283-bccd4ed6bfab.Date
-
-relationship AutoDetected_29785ac7-88e8-4418-8b5d-383ccaa535b0
-	fromColumn: Sales.EmployeeID
-	toColumn: Employees.EmployeeID
-
-relationship AutoDetected_e6dd192a-9354-4d3c-8c0c-449be009c0c6
-	fromColumn: Sales.ProductID
-	toColumn: Products.ProductID
 
 relationship 740d86c2-bcd3-4b99-8cdb-9269ebad2341
 	joinOnDateBehavior: datePartOnly
@@ -35,10 +18,6 @@ relationship 7eb82370-16e8-4da8-9ab4-59531943c980
 	fromColumn: Returns.ReturnDate
 	toColumn: LocalDateTable_bf1e093a-1477-44d4-bfe4-bbd9be887de1.Date
 
-relationship AutoDetected_4f9451e2-3ca7-43ab-a3c4-795e2ee795d7
-	fromColumn: Returns.SaleID
-	toColumn: Sales.SaleID
-
 relationship AutoDetected_4114f647-dd27-49ee-ae5b-e7de2a9246f3
 	isActive: false
 	fromColumn: Returns.ProductID
@@ -49,10 +28,6 @@ relationship ca770a43-8a57-4a1e-9b98-4c30833c7537
 	fromColumn: Shipping.DeliveryDate
 	toColumn: LocalDateTable_fde025c7-e80b-46c8-9d0c-940d93603fc9.Date
 
-relationship AutoDetected_0ea534c3-328c-49dc-b732-9847707024c6
-	fromColumn: Shipping.SaleID
-	toColumn: Sales.SaleID
-
 relationship AutoDetected_f09c1615-7a37-4bc2-8f86-96ac045a6b8e
 	fromColumn: Products.SupplierID
 	toColumn: Suppliers.SupplierID
@@ -61,4 +36,29 @@ relationship 48946e35-13a0-4033-ba07-e39c055e54c6
 	joinOnDateBehavior: datePartOnly
 	fromColumn: Targets.Period
 	toColumn: LocalDateTable_e18db10b-b352-4748-be98-031bd49a066f.Date
+
+relationship a01e980e-42de-40ce-add2-3cbdad90b974
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Sales.Date
+	toColumn: LocalDateTable_d2d09e47-7d9e-4608-81e3-1b5fa491206d.Date
+
+relationship AutoDetected_9ef13200-a8b2-4d5a-8069-a702de21baa0
+	fromColumn: Sales.ClientID
+	toColumn: Clients.ClientID
+
+relationship AutoDetected_2a367791-840d-4a5c-9320-25695a2f83c0
+	fromColumn: Sales.EmployeeID
+	toColumn: Employees.EmployeeID
+
+relationship AutoDetected_b94413c9-6372-4a6b-8721-d848d9eadca3
+	fromColumn: Sales.ProductID
+	toColumn: Products.ProductID
+
+relationship AutoDetected_5ba2b370-dbbd-4fa1-98b0-345d82aa2ca5
+	fromColumn: Returns.SaleID
+	toColumn: Sales.SaleID
+
+relationship AutoDetected_8a6b4636-61f0-4857-b68a-e4987e7da32c
+	fromColumn: Shipping.SaleID
+	toColumn: Sales.SaleID
 

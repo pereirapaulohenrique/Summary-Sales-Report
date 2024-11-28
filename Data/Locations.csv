@@ -1,0 +1,201 @@
+LocationID,Type,City,State,Country
+1,Buyer,Port Mary,Vermont,Country1
+2,Buyer,Frenchberg,Indiana,Country1
+3,Buyer,Jonathanberg,Mississippi,Country1
+4,Buyer,Marvinville,Washington,Country1
+5,Buyer,New Jennifer,Arizona,Country1
+6,Buyer,East Rebecca,Louisiana,Country1
+7,Buyer,Lake Courtney,Alabama,Country1
+8,Buyer,Shawnburgh,Missouri,Country1
+9,Buyer,Mcmahonburgh,Michigan,Country1
+10,Supplier,Kristyton,Oregon,Country1
+11,Buyer,Port Lisafort,Wisconsin,Country1
+12,Buyer,East Stanley,Indiana,Country1
+13,Buyer,Davistown,South Dakota,Country1
+14,Buyer,West Crystalside,Kentucky,Country1
+15,Buyer,New Vanessa,Kansas,Country1
+16,Buyer,East Gary,Washington,Country1
+17,Buyer,North Yolandafurt,Kansas,Country1
+18,Buyer,Taylorside,Indiana,Country1
+19,Supplier,North Lisa,Iowa,Country1
+20,Buyer,Jamesville,Oregon,Country1
+21,Buyer,North April,Alabama,Country1
+22,Supplier,Jonathanhaven,Vermont,Country1
+23,Buyer,New Carrie,Missouri,Country1
+24,Buyer,New Blakemouth,Florida,Country1
+25,Buyer,Port Julie,Nevada,Country1
+26,Buyer,Austinborough,Vermont,Country1
+27,Buyer,South Russellberg,Oklahoma,Country1
+28,Buyer,Port Wesleyport,Oregon,Country1
+29,Buyer,South Shelley,Arizona,Country1
+30,Buyer,Alexandermouth,Kansas,Country1
+31,Buyer,Port Angela,Mississippi,Country1
+32,Buyer,Lake Crystalburgh,Iowa,Country1
+33,Buyer,Kimberg,South Carolina,Country1
+34,Buyer,Brettport,Montana,Country1
+35,Buyer,Lake Larryview,Nevada,Country1
+36,Buyer,Silvachester,North Dakota,Country1
+37,Buyer,Jasonland,Washington,Country1
+38,Buyer,East Darrylland,North Carolina,Country1
+39,Buyer,Markside,Arkansas,Country1
+40,Supplier,Lisashire,Delaware,Country1
+41,Buyer,Parrishberg,Iowa,Country1
+42,Supplier,Port Donald,Missouri,Country1
+43,Supplier,South Daniel,Minnesota,Country1
+44,Supplier,Timothyshire,New Mexico,Country1
+45,Buyer,Matthewton,New Hampshire,Country1
+46,Buyer,Sarahburgh,West Virginia,Country1
+47,Buyer,New Lynn,Oregon,Country1
+48,Supplier,North Jonathan,Montana,Country1
+49,Buyer,Dawnmouth,Utah,Country1
+50,Buyer,Valeriefurt,Nebraska,Country1
+51,Buyer,Port Andrew,North Carolina,Country1
+52,Buyer,Port Christine,New York,Country1
+53,Supplier,Franklinview,Missouri,Country1
+54,Buyer,South Randallstad,Washington,Country1
+55,Buyer,Lake Dawnview,Illinois,Country1
+56,Buyer,Cynthiaburgh,Wisconsin,Country1
+57,Buyer,West Adamchester,Massachusetts,Country1
+58,Buyer,East Donaldfurt,Connecticut,Country1
+59,Buyer,New Sharon,Kentucky,Country1
+60,Supplier,Jacobstad,Alaska,Country1
+61,Buyer,New Matthewport,North Dakota,Country1
+62,Supplier,Karenside,Missouri,Country1
+63,Buyer,Deanfort,Nebraska,Country1
+64,Buyer,Alanhaven,Texas,Country1
+65,Buyer,Lake Anna,Iowa,Country1
+66,Buyer,Manningville,New Hampshire,Country1
+67,Buyer,Deleonchester,South Dakota,Country1
+68,Buyer,Hurleyborough,Louisiana,Country1
+69,Buyer,Nathanhaven,Alaska,Country1
+70,Buyer,Banksborough,Utah,Country1
+71,Supplier,Youngland,Nevada,Country1
+72,Buyer,Denisehaven,South Dakota,Country1
+73,Buyer,Scottview,Florida,Country1
+74,Supplier,North Josephfurt,Arizona,Country1
+75,Buyer,East Elizabeth,Iowa,Country1
+76,Supplier,Marthaton,Indiana,Country1
+77,Buyer,New Joyce,Indiana,Country1
+78,Supplier,West Donald,Vermont,Country1
+79,Buyer,Thomasmouth,California,Country1
+80,Buyer,Johntown,Iowa,Country1
+81,Buyer,South Matthew,Rhode Island,Country1
+82,Supplier,South Austin,North Dakota,Country1
+83,Buyer,Greenburgh,Hawaii,Country1
+84,Buyer,Angelaberg,Nevada,Country1
+85,Supplier,Smithberg,Hawaii,Country1
+86,Buyer,Theresashire,Nebraska,Country1
+87,Buyer,Orozcofort,Wisconsin,Country1
+88,Buyer,Elliottshire,Indiana,Country1
+89,Buyer,East Ronaldtown,Louisiana,Country1
+90,Buyer,South Jenna,Nebraska,Country1
+91,Supplier,South Alexandria,Oklahoma,Country1
+92,Buyer,Swansonchester,Alabama,Country1
+93,Buyer,Burkeview,New Mexico,Country1
+94,Buyer,Tammyport,Kentucky,Country1
+95,Buyer,West Taylortown,California,Country1
+96,Supplier,West Christinafurt,New Hampshire,Country1
+97,Buyer,Rebeccafurt,Connecticut,Country1
+98,Buyer,Keithside,Massachusetts,Country1
+99,Buyer,Danielleburgh,Delaware,Country1
+100,Buyer,Reedstad,Illinois,Country1
+101,Supplier,Beckyshire,North Carolina,Country1
+102,Buyer,Port Jacqueline,Florida,Country1
+103,Buyer,West Victoriatown,Louisiana,Country1
+104,Buyer,Samuelside,Nevada,Country1
+105,Buyer,East Eric,New York,Country1
+106,Buyer,Port Melanie,Wyoming,Country1
+107,Buyer,Douglasbury,Massachusetts,Country1
+108,Buyer,South Sharonmouth,Pennsylvania,Country1
+109,Buyer,West Patrickberg,New Mexico,Country1
+110,Buyer,Dennisfurt,Michigan,Country1
+111,Buyer,South Davidport,Rhode Island,Country1
+112,Buyer,Jamesshire,Maryland,Country1
+113,Buyer,Christopherport,South Carolina,Country1
+114,Buyer,Lake Danielle,New Hampshire,Country1
+115,Buyer,Carterside,Virginia,Country1
+116,Buyer,Alvaradotown,Rhode Island,Country1
+117,Buyer,Lake Sharonhaven,Connecticut,Country1
+118,Buyer,North Natasha,Minnesota,Country1
+119,Buyer,Riverabury,Iowa,Country1
+120,Buyer,Port Bethany,New Hampshire,Country1
+121,Buyer,Riddlefurt,Arkansas,Country1
+122,Buyer,East Erinmouth,Vermont,Country1
+123,Supplier,Yangtown,Louisiana,Country1
+124,Buyer,Mcbrideville,Wyoming,Country1
+125,Buyer,Abbottfort,Hawaii,Country1
+126,Buyer,West Juliechester,Idaho,Country1
+127,Buyer,Mckenzietown,Florida,Country1
+128,Buyer,West Tammymouth,Delaware,Country1
+129,Buyer,Myersburgh,Vermont,Country1
+130,Supplier,East Mitchellchester,Hawaii,Country1
+131,Buyer,Jonathanton,Maine,Country1
+132,Buyer,North Christinemouth,Connecticut,Country1
+133,Buyer,Jeffreyborough,Maine,Country1
+134,Buyer,New Krystal,Pennsylvania,Country1
+135,Supplier,New Angelatown,Kentucky,Country1
+136,Buyer,Steveborough,New Mexico,Country1
+137,Buyer,North Jessicatown,Minnesota,Country1
+138,Buyer,Potterburgh,Mississippi,Country1
+139,Buyer,Garciaview,Iowa,Country1
+140,Buyer,Donnaborough,Indiana,Country1
+141,Buyer,East Lauraberg,Florida,Country1
+142,Buyer,East Ginaton,North Carolina,Country1
+143,Buyer,Johnsonton,Virginia,Country1
+144,Buyer,North Williamhaven,Alabama,Country1
+145,Buyer,New Devin,New Jersey,Country1
+146,Buyer,Rodriguezmouth,New Jersey,Country1
+147,Buyer,Annafurt,Rhode Island,Country1
+148,Buyer,Stephanieside,Connecticut,Country1
+149,Buyer,Carterville,Louisiana,Country1
+150,Buyer,East Austinfort,Illinois,Country1
+151,Buyer,Lake Pamelaberg,California,Country1
+152,Buyer,Staceytown,Indiana,Country1
+153,Buyer,New Megan,Mississippi,Country1
+154,Buyer,New Ericville,Arkansas,Country1
+155,Buyer,West Josephmouth,Kansas,Country1
+156,Buyer,Myersmouth,Texas,Country1
+157,Buyer,Ruthside,Kentucky,Country1
+158,Buyer,Lake Graceborough,Oklahoma,Country1
+159,Buyer,Brownberg,Michigan,Country1
+160,Buyer,Kellymouth,Missouri,Country1
+161,Buyer,New Kenneth,New Jersey,Country1
+162,Supplier,Matthewstad,Arkansas,Country1
+163,Buyer,Paynebury,Ohio,Country1
+164,Buyer,East Tammy,Louisiana,Country1
+165,Buyer,Port Matthew,Montana,Country1
+166,Buyer,Port Stephanie,Missouri,Country1
+167,Buyer,Port Bethanyshire,Massachusetts,Country1
+168,Supplier,Flemingmouth,Alabama,Country1
+169,Buyer,Port Lisa,Massachusetts,Country1
+170,Buyer,Lake Matthew,Michigan,Country1
+171,Buyer,Kathyfort,New Mexico,Country1
+172,Buyer,West Jay,Montana,Country1
+173,Buyer,Alexanderstad,Indiana,Country1
+174,Buyer,East Rachel,Mississippi,Country1
+175,Buyer,Hernandezbury,Tennessee,Country1
+176,Buyer,North Rebecca,California,Country1
+177,Buyer,West Jenniferton,Minnesota,Country1
+178,Supplier,Davidville,West Virginia,Country1
+179,Buyer,Christopherborough,New Hampshire,Country1
+180,Buyer,Lake Jenniferburgh,Montana,Country1
+181,Buyer,Garcialand,Kansas,Country1
+182,Buyer,East Jackiechester,Vermont,Country1
+183,Supplier,Claytonbury,Pennsylvania,Country1
+184,Supplier,Laurenton,Alaska,Country1
+185,Supplier,Huffmanborough,Pennsylvania,Country1
+186,Buyer,Matthewview,Maine,Country1
+187,Buyer,New Christophershire,Georgia,Country1
+188,Buyer,Kristenport,Indiana,Country1
+189,Supplier,Vanessaburgh,New Mexico,Country1
+190,Buyer,Gibsontown,California,Country1
+191,Buyer,Kennedyport,Colorado,Country1
+192,Supplier,Reynoldsport,Minnesota,Country1
+193,Buyer,Owenborough,Iowa,Country1
+194,Buyer,Ortizshire,Michigan,Country1
+195,Buyer,Marioshire,Delaware,Country1
+196,Buyer,Rachelton,South Carolina,Country1
+197,Supplier,Snowville,Montana,Country1
+198,Supplier,Rossshire,Minnesota,Country1
+199,Buyer,New Kyleborough,Missouri,Country1
+200,Supplier,Baileyville,Rhode Island,Country1

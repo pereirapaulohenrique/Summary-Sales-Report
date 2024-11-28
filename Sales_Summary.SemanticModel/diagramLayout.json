@@ -10,19 +10,6 @@
       "nodes": [
         {
           "location": {
-            "x": 350.71332419556092,
-            "y": 505.17031715231496
-          },
-          "nodeIndex": "Sales",
-          "nodeLineageTag": "f40aeee2-e79e-4a0c-8373-27578e8ad6ea",
-          "size": {
-            "height": 300,
-            "width": 234
-          },
-          "zIndex": 1
-        },
-        {
-          "location": {
             "x": 7,
             "y": 0
           },
@@ -49,8 +36,8 @@
         },
         {
           "location": {
-            "x": 809.3372689890931,
-            "y": 279.67790329372303
+            "x": 872.54131493117723,
+            "y": 47.403034456563269
           },
           "nodeIndex": "Products",
           "nodeLineageTag": "298211af-9223-4b70-a0da-b9388a4277ca",
@@ -62,8 +49,8 @@
         },
         {
           "location": {
-            "x": 1298.7504183008671,
-            "y": 207.07082289507548
+            "x": 2098.2815994682333,
+            "y": 194.43001370665863
           },
           "nodeIndex": "Promotions",
           "nodeLineageTag": "0b9e4533-1fbd-41ef-9f2a-644ac9ee59a4",
@@ -71,12 +58,12 @@
             "height": 224,
             "width": 234
           },
-          "zIndex": 5
+          "zIndex": 9
         },
         {
           "location": {
-            "x": 805.34065321323033,
-            "y": 636.85327787364338
+            "x": 707.37438200299971,
+            "y": 339.79426194584727
           },
           "nodeIndex": "Returns",
           "nodeLineageTag": "ee0e9240-c177-48cd-b3fe-bbe1f0d5fd27",
@@ -84,7 +71,7 @@
             "height": 233.485664318918,
             "width": 234
           },
-          "zIndex": 10
+          "zIndex": 7
         },
         {
           "location": {
@@ -97,11 +84,11 @@
             "height": 224,
             "width": 234
           },
-          "zIndex": 6
+          "zIndex": 5
         },
         {
           "location": {
-            "x": 755.521104129356,
+            "x": 1178.9882119413207,
             "y": 0
           },
           "nodeIndex": "Suppliers",
@@ -110,12 +97,12 @@
             "height": 176,
             "width": 234
           },
-          "zIndex": 7
+          "zIndex": 6
         },
         {
           "location": {
-            "x": 1301.8178947890058,
-            "y": 477.26811929748584
+            "x": 2101.349075956372,
+            "y": 464.62731010906896
           },
           "nodeIndex": "Targets",
           "nodeLineageTag": "e8376c28-99ae-42ff-80ed-b3b85a064064",
@@ -123,11 +110,11 @@
             "height": 224,
             "width": 234
           },
-          "zIndex": 8
+          "zIndex": 10
         },
         {
           "location": {
-            "x": 1298.2394857525228,
+            "x": 2097.7706669198888,
             "y": 0
           },
           "nodeIndex": "TaxRates",
@@ -136,7 +123,20 @@
             "height": 156.74030344565631,
             "width": 234
           },
-          "zIndex": 9
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 380.200718443748,
+            "y": 283.58936994772858
+          },
+          "nodeIndex": "Sales",
+          "nodeLineageTag": "ae8cdf50-63d8-4f78-bee5-cdab0d0a0761",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
         }
       ],
       "name": "All tables",
