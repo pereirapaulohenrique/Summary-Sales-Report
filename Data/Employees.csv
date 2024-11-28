@@ -1,0 +1,201 @@
+EmployeeID,EmployeeName,Role,Department,HireDate
+1,Mark Day,Cashier,Sales,2015-11-03T00:00:00.000000000
+2,Jonathan Jones,Sales Representative,Customer Service,2007-09-16T00:00:00.000000000
+3,Ryan Howard,Sales Representative,Customer Service,2005-01-02T00:00:00.000000000
+4,Jessica Nguyen,Sales Representative,Sales,2017-04-11T00:00:00.000000000
+5,Thomas Nelson,Manager,Sales,2005-08-14T00:00:00.000000000
+6,Deborah Walker,Cashier,Customer Service,2009-11-21T00:00:00.000000000
+7,Mr. Kyle Bailey MD,Sales Representative,Sales,2000-09-03T00:00:00.000000000
+8,Denise Reynolds,Cashier,Sales,2004-12-25T00:00:00.000000000
+9,Meagan Knight,Cashier,Sales,2008-03-02T00:00:00.000000000
+10,Brian Lynch,Cashier,Sales,2007-08-25T00:00:00.000000000
+11,Laura Barnes,Manager,Sales,2022-01-05T00:00:00.000000000
+12,Jordan Dennis,Sales Representative,Sales,2010-09-12T00:00:00.000000000
+13,Dr. Michele Taylor MD,Sales Representative,Customer Service,2006-02-28T00:00:00.000000000
+14,Jennifer Farrell,Cashier,Sales,2019-07-09T00:00:00.000000000
+15,Micheal Carpenter,Cashier,Customer Service,2023-05-02T00:00:00.000000000
+16,Tracy Bailey,Cashier,Customer Service,2008-05-08T00:00:00.000000000
+17,Steven Williams,Sales Representative,Sales,2022-07-30T00:00:00.000000000
+18,Robert Lewis,Sales Representative,Sales,2000-03-31T00:00:00.000000000
+19,Zachary Pugh,Cashier,Customer Service,2018-07-09T00:00:00.000000000
+20,Edgar Rogers,Sales Representative,Sales,2010-03-16T00:00:00.000000000
+21,Jeremiah Alvarez,Cashier,Customer Service,2006-02-01T00:00:00.000000000
+22,Alexander Walker,Sales Representative,Customer Service,2001-05-02T00:00:00.000000000
+23,Edgar Rios,Cashier,Sales,2022-08-04T00:00:00.000000000
+24,Reginald Smith,Manager,Sales,2000-09-10T00:00:00.000000000
+25,Donna Howard,Sales Representative,Sales,2016-10-24T00:00:00.000000000
+26,Jeffery Wright,Sales Representative,Customer Service,2013-07-10T00:00:00.000000000
+27,Jeffrey Lewis,Sales Representative,Customer Service,2003-11-24T00:00:00.000000000
+28,Alexander Fisher,Sales Representative,Customer Service,2011-09-26T00:00:00.000000000
+29,Sabrina Frost,Manager,Sales,2011-03-05T00:00:00.000000000
+30,Tanya Bond,Manager,Customer Service,2008-03-25T00:00:00.000000000
+31,Julie Garcia,Cashier,Sales,2017-07-12T00:00:00.000000000
+32,Tara Peters,Manager,Sales,2003-01-09T00:00:00.000000000
+33,Kayla Douglas,Cashier,Sales,2009-02-13T00:00:00.000000000
+34,Melanie Aguilar,Cashier,Sales,2012-05-01T00:00:00.000000000
+35,Darin Bryan,Manager,Customer Service,2022-04-08T00:00:00.000000000
+36,Mary Martin,Sales Representative,Sales,2000-08-28T00:00:00.000000000
+37,Jesse Gonzales,Sales Representative,Customer Service,2007-08-18T00:00:00.000000000
+38,Alicia Martin,Sales Representative,Customer Service,2006-02-21T00:00:00.000000000
+39,Holly Armstrong,Cashier,Sales,2012-11-13T00:00:00.000000000
+40,Tracy Warren,Cashier,Customer Service,2011-09-22T00:00:00.000000000
+41,Courtney Gray,Sales Representative,Customer Service,2005-08-26T00:00:00.000000000
+42,Barbara Carey,Manager,Sales,2008-11-07T00:00:00.000000000
+43,Mitchell Douglas,Cashier,Customer Service,2004-09-08T00:00:00.000000000
+44,Jenna Steele,Sales Representative,Sales,2007-03-01T00:00:00.000000000
+45,Krystal Cooper,Cashier,Customer Service,2005-02-10T00:00:00.000000000
+46,Amy Weber,Sales Representative,Sales,2002-08-13T00:00:00.000000000
+47,Kathryn Cordova,Manager,Customer Service,2011-12-26T00:00:00.000000000
+48,Maria Lloyd,Sales Representative,Customer Service,2012-01-22T00:00:00.000000000
+49,Sandra Bullock,Cashier,Customer Service,2002-04-04T00:00:00.000000000
+50,Laura Young,Sales Representative,Sales,2003-09-04T00:00:00.000000000
+51,Todd Taylor,Cashier,Sales,2019-09-28T00:00:00.000000000
+52,Briana Young,Sales Representative,Sales,2016-12-29T00:00:00.000000000
+53,John Chapman,Manager,Sales,2016-10-09T00:00:00.000000000
+54,Peter Johnson,Sales Representative,Customer Service,2003-05-12T00:00:00.000000000
+55,Kelly Rich,Sales Representative,Sales,2004-11-21T00:00:00.000000000
+56,Suzanne Yates,Cashier,Customer Service,2005-09-07T00:00:00.000000000
+57,Elizabeth Flores,Cashier,Customer Service,2021-03-09T00:00:00.000000000
+58,April Osborne,Sales Representative,Sales,2009-03-18T00:00:00.000000000
+59,Laura Martinez,Sales Representative,Customer Service,2002-08-08T00:00:00.000000000
+60,Jaclyn Jenkins,Sales Representative,Customer Service,2015-07-11T00:00:00.000000000
+61,Rachel Jordan,Cashier,Customer Service,2020-03-13T00:00:00.000000000
+62,Shannon Herman,Manager,Customer Service,2016-10-12T00:00:00.000000000
+63,Mr. David Crawford,Cashier,Customer Service,2017-08-06T00:00:00.000000000
+64,Miguel Howard,Manager,Customer Service,2010-06-26T00:00:00.000000000
+65,Theresa Zuniga,Manager,Sales,2020-10-03T00:00:00.000000000
+66,Jonathan Walls,Cashier,Customer Service,2021-07-10T00:00:00.000000000
+67,Jessica Martinez,Cashier,Sales,2015-04-14T00:00:00.000000000
+68,Troy Rogers,Cashier,Sales,2019-02-21T00:00:00.000000000
+69,Amanda Pittman,Manager,Sales,2000-06-30T00:00:00.000000000
+70,George White,Sales Representative,Sales,2014-08-02T00:00:00.000000000
+71,Kenneth Davis,Manager,Customer Service,2011-04-03T00:00:00.000000000
+72,Michael Lopez,Sales Representative,Sales,2017-08-28T00:00:00.000000000
+73,Denise Hebert,Manager,Customer Service,2023-09-25T00:00:00.000000000
+74,Michael Robbins,Sales Representative,Customer Service,2003-09-09T00:00:00.000000000
+75,Whitney Lozano,Cashier,Customer Service,2002-08-15T00:00:00.000000000
+76,Shawn Fields,Sales Representative,Sales,2017-08-17T00:00:00.000000000
+77,Joseph Roberts,Sales Representative,Sales,2011-02-16T00:00:00.000000000
+78,Amanda Parsons,Sales Representative,Customer Service,2018-10-02T00:00:00.000000000
+79,Shane Young,Sales Representative,Customer Service,2021-11-19T00:00:00.000000000
+80,Matthew Robinson,Sales Representative,Sales,2018-11-07T00:00:00.000000000
+81,Zachary Dean,Cashier,Customer Service,2021-01-27T00:00:00.000000000
+82,Jim Goodman,Cashier,Sales,2022-09-13T00:00:00.000000000
+83,April Smith,Cashier,Customer Service,2010-03-09T00:00:00.000000000
+84,Brandon Ortiz,Manager,Customer Service,2011-05-01T00:00:00.000000000
+85,Rebecca Nelson,Manager,Sales,2001-07-17T00:00:00.000000000
+86,Michelle Stokes,Cashier,Sales,2021-07-29T00:00:00.000000000
+87,Samantha Middleton,Sales Representative,Sales,2006-06-19T00:00:00.000000000
+88,Patrick Williams,Manager,Sales,2016-07-29T00:00:00.000000000
+89,Diana Anderson,Cashier,Customer Service,2016-03-21T00:00:00.000000000
+90,Gregory Mcgrath,Sales Representative,Sales,2017-12-31T00:00:00.000000000
+91,Alisha Harvey,Cashier,Customer Service,2020-07-29T00:00:00.000000000
+92,Michael Hernandez,Sales Representative,Customer Service,2000-03-01T00:00:00.000000000
+93,Jamie Bradford,Sales Representative,Sales,2015-01-20T00:00:00.000000000
+94,Marcus Gonzalez,Cashier,Customer Service,2005-11-19T00:00:00.000000000
+95,Theresa Robertson,Cashier,Customer Service,2019-12-09T00:00:00.000000000
+96,Peter Massey,Sales Representative,Customer Service,2001-02-11T00:00:00.000000000
+97,Megan Barker,Manager,Customer Service,2003-02-18T00:00:00.000000000
+98,Cynthia Coleman,Manager,Sales,2000-09-25T00:00:00.000000000
+99,William Jones,Manager,Sales,2016-05-01T00:00:00.000000000
+100,Sonya Noble,Sales Representative,Customer Service,2006-04-20T00:00:00.000000000
+101,Mrs. Tiffany Johnson MD,Sales Representative,Customer Service,2020-01-20T00:00:00.000000000
+102,Zachary Merritt,Manager,Customer Service,2011-10-10T00:00:00.000000000
+103,Jill Rowland,Cashier,Sales,2022-08-17T00:00:00.000000000
+104,Roger Porter,Sales Representative,Sales,2022-12-24T00:00:00.000000000
+105,Alexandra Butler,Cashier,Customer Service,2001-06-22T00:00:00.000000000
+106,Joshua Martinez,Sales Representative,Customer Service,2019-11-17T00:00:00.000000000
+107,Robert Garcia,Manager,Sales,2000-01-30T00:00:00.000000000
+108,Frank Wilson,Cashier,Customer Service,2017-07-29T00:00:00.000000000
+109,Thomas Ramos,Cashier,Customer Service,2012-02-29T00:00:00.000000000
+110,Logan Mitchell,Cashier,Sales,2005-08-23T00:00:00.000000000
+111,Derek Lucero,Sales Representative,Sales,2019-03-28T00:00:00.000000000
+112,Teresa Williams,Manager,Customer Service,2005-02-10T00:00:00.000000000
+113,Rachel Johnson,Manager,Customer Service,2006-08-31T00:00:00.000000000
+114,John Dixon,Manager,Customer Service,2001-04-05T00:00:00.000000000
+115,Kevin Morgan,Manager,Sales,2002-07-09T00:00:00.000000000
+116,Allison Simon,Manager,Customer Service,2013-04-02T00:00:00.000000000
+117,Dr. Lori Hernandez,Sales Representative,Sales,2005-02-18T00:00:00.000000000
+118,Andre Nielsen,Cashier,Sales,2019-02-11T00:00:00.000000000
+119,Leslie Fuller,Sales Representative,Sales,2003-09-16T00:00:00.000000000
+120,Adam Brown,Sales Representative,Sales,2003-10-26T00:00:00.000000000
+121,Jason Doyle,Sales Representative,Sales,2003-12-24T00:00:00.000000000
+122,Valerie Willis,Sales Representative,Customer Service,2013-11-20T00:00:00.000000000
+123,Jason Peterson,Sales Representative,Customer Service,2011-11-10T00:00:00.000000000
+124,Rachel Romero,Cashier,Sales,2020-12-11T00:00:00.000000000
+125,David Bailey,Manager,Sales,2012-06-27T00:00:00.000000000
+126,Stacy Larsen,Sales Representative,Sales,2005-07-27T00:00:00.000000000
+127,Tiffany Townsend,Sales Representative,Sales,2012-05-19T00:00:00.000000000
+128,Denise Clark,Sales Representative,Customer Service,2007-03-18T00:00:00.000000000
+129,Tiffany Miller,Sales Representative,Customer Service,2013-06-16T00:00:00.000000000
+130,Candace Zuniga,Manager,Customer Service,2004-02-26T00:00:00.000000000
+131,Beth Mcconnell,Manager,Sales,2014-04-22T00:00:00.000000000
+132,Sheila Hamilton,Sales Representative,Sales,2016-10-24T00:00:00.000000000
+133,Michelle Tucker,Sales Representative,Customer Service,2023-11-29T00:00:00.000000000
+134,James Flowers,Manager,Customer Service,2010-11-13T00:00:00.000000000
+135,Heather Chen,Manager,Customer Service,2003-10-13T00:00:00.000000000
+136,Stacy Molina,Manager,Sales,2007-09-18T00:00:00.000000000
+137,James Berry,Manager,Sales,2000-12-02T00:00:00.000000000
+138,Jessica Russell,Cashier,Sales,2019-04-13T00:00:00.000000000
+139,Ryan Graham,Sales Representative,Customer Service,2017-02-21T00:00:00.000000000
+140,Mark Walsh,Sales Representative,Sales,2012-03-14T00:00:00.000000000
+141,Courtney Fuller,Cashier,Customer Service,2022-03-04T00:00:00.000000000
+142,Teresa Robertson,Manager,Customer Service,2021-11-20T00:00:00.000000000
+143,Eric Jones,Sales Representative,Customer Service,2013-03-22T00:00:00.000000000
+144,Laura Mcguire,Sales Representative,Sales,2010-07-07T00:00:00.000000000
+145,Justin Ray,Sales Representative,Customer Service,2022-01-10T00:00:00.000000000
+146,Katherine Rivera,Sales Representative,Customer Service,2012-07-06T00:00:00.000000000
+147,Tyler Henderson,Sales Representative,Customer Service,2006-04-30T00:00:00.000000000
+148,Daniel Hall,Sales Representative,Customer Service,2018-10-30T00:00:00.000000000
+149,Steven Morales,Cashier,Customer Service,2007-11-19T00:00:00.000000000
+150,Leah Johnson,Manager,Sales,2011-12-07T00:00:00.000000000
+151,Robert Carney,Sales Representative,Customer Service,2016-04-11T00:00:00.000000000
+152,Christine Mcdonald,Sales Representative,Customer Service,2009-08-27T00:00:00.000000000
+153,Brianna Young,Manager,Sales,2002-11-29T00:00:00.000000000
+154,Olivia Herrera,Sales Representative,Sales,2014-02-06T00:00:00.000000000
+155,Heidi Rose,Cashier,Sales,2015-01-20T00:00:00.000000000
+156,Douglas Chandler,Manager,Sales,2009-04-20T00:00:00.000000000
+157,Christopher Fisher,Sales Representative,Customer Service,2021-05-20T00:00:00.000000000
+158,Eddie Foster,Sales Representative,Sales,2005-08-20T00:00:00.000000000
+159,Hannah Jordan,Sales Representative,Customer Service,2000-08-25T00:00:00.000000000
+160,Anthony Ramsey,Sales Representative,Customer Service,2013-11-16T00:00:00.000000000
+161,Amy Lee,Cashier,Sales,2015-12-05T00:00:00.000000000
+162,Heather Williams,Manager,Customer Service,2005-01-04T00:00:00.000000000
+163,Rebecca Barber,Sales Representative,Sales,2005-07-04T00:00:00.000000000
+164,Rachel Riley,Sales Representative,Sales,2009-12-01T00:00:00.000000000
+165,Anthony Kennedy,Manager,Customer Service,2009-07-11T00:00:00.000000000
+166,Angel Brandt,Sales Representative,Customer Service,2016-04-01T00:00:00.000000000
+167,Regina Johnston,Sales Representative,Customer Service,2010-08-23T00:00:00.000000000
+168,Ruth Martinez,Cashier,Customer Service,2017-04-03T00:00:00.000000000
+169,Cynthia Reed,Cashier,Customer Service,2016-07-14T00:00:00.000000000
+170,Jon Washington,Cashier,Sales,2008-10-19T00:00:00.000000000
+171,Stephen Brooks,Manager,Sales,2014-06-20T00:00:00.000000000
+172,Mackenzie Martinez,Cashier,Sales,2017-09-23T00:00:00.000000000
+173,Joshua Guzman,Manager,Customer Service,2003-10-27T00:00:00.000000000
+174,Jason Bush,Manager,Sales,2023-11-30T00:00:00.000000000
+175,Christopher Patrick,Cashier,Customer Service,2021-06-17T00:00:00.000000000
+176,Ariel Thompson,Cashier,Sales,2007-01-20T00:00:00.000000000
+177,Joseph Brown,Manager,Sales,2003-11-08T00:00:00.000000000
+178,Vernon Jackson,Manager,Sales,2004-10-18T00:00:00.000000000
+179,Jennifer Newman,Cashier,Customer Service,2013-11-06T00:00:00.000000000
+180,Mary Harris,Manager,Customer Service,2009-10-10T00:00:00.000000000
+181,Erica Key,Cashier,Sales,2015-08-02T00:00:00.000000000
+182,Brandon Barrett,Sales Representative,Sales,2017-06-17T00:00:00.000000000
+183,Anthony Jones,Manager,Customer Service,2019-09-30T00:00:00.000000000
+184,Kristi Ramirez,Cashier,Sales,2023-03-12T00:00:00.000000000
+185,Amy Lopez,Cashier,Customer Service,2007-10-04T00:00:00.000000000
+186,Melissa Parker,Sales Representative,Customer Service,2018-09-01T00:00:00.000000000
+187,Brian Jones,Cashier,Sales,2008-08-03T00:00:00.000000000
+188,Jason Mitchell,Cashier,Customer Service,2023-12-28T00:00:00.000000000
+189,Ronald Jackson,Manager,Sales,2003-12-23T00:00:00.000000000
+190,Nicholas Oliver,Manager,Sales,2013-11-07T00:00:00.000000000
+191,Thomas Brooks,Cashier,Sales,2010-06-28T00:00:00.000000000
+192,Elijah Mason,Cashier,Customer Service,2014-07-22T00:00:00.000000000
+193,Shane Mccann,Cashier,Sales,2000-06-11T00:00:00.000000000
+194,Christopher Garner,Cashier,Sales,2003-08-26T00:00:00.000000000
+195,Carla Griffin,Manager,Customer Service,2004-09-17T00:00:00.000000000
+196,Bruce Schroeder,Cashier,Customer Service,2008-12-27T00:00:00.000000000
+197,Nichole Moore,Cashier,Customer Service,2004-07-06T00:00:00.000000000
+198,Kimberly Castillo,Sales Representative,Customer Service,2022-09-10T00:00:00.000000000
+199,Matthew Lopez,Cashier,Sales,2007-04-05T00:00:00.000000000
+200,Kelly Stout,Manager,Customer Service,2017-07-24T00:00:00.000000000

@@ -1,0 +1,11 @@
+TaxRateID,Region,TaxPercentage
+1,North,6.22
+2,South,5.36
+3,East,9.78
+4,West,11.54
+5,Central,9.19
+6,North-East,12.74
+7,South-West,7.76
+8,West-Central,13.88
+9,North-West,14.09
+10,South-Central,9.81

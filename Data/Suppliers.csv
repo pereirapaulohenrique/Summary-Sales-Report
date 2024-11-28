@@ -1,0 +1,101 @@
+SupplierID,SupplierName,ContactInfo,Region
+1,"Brown, Jones and Strong",alexandertony@yahoo.com,North
+2,Garcia and Sons,sallymartinez@yahoo.com,East
+3,Garza Ltd,erin10@yahoo.com,North
+4,Day LLC,jonesnancy@cooper.com,North
+5,"Sanchez, Thomas and Turner",ramseyjason@sullivan.com,East
+6,Wilkerson-Ryan,michellebowers@cummings.info,East
+7,"Scott, Fowler and Reyes",jenniferkirby@cooper.com,South
+8,"Joseph, Rivera and Pacheco",brian78@hotmail.com,East
+9,"Nunez, Boyd and Chandler",erin25@gmail.com,South
+10,Kaiser PLC,nelsonkurt@yahoo.com,West
+11,"Marquez, Adams and Roberts",vanessa10@perry-hernandez.info,South
+12,Wolf LLC,wolfezachary@yahoo.com,North
+13,Johns-Mcfarland,brendawilson@summers.info,West
+14,Turner-Levy,joseph47@hall-allen.com,East
+15,Hunter Group,qchurch@yahoo.com,South
+16,"Boyle, Kaufman and Harris",browndarryl@baxter.biz,West
+17,Williams Inc,davismichelle@yahoo.com,West
+18,Skinner-Clarke,emily23@thomas.info,East
+19,"Martinez, West and Lopez",hthomas@owen-robinson.com,North
+20,Barry Inc,heatherparrish@yahoo.com,East
+21,"Burke, Cameron and Stevens",wroberts@hotmail.com,South
+22,Miller-Barker,natalie03@holland.biz,North
+23,Williams Inc,yrobertson@humphrey-meyers.info,East
+24,Chang-Woodward,stewartmichael@gmail.com,West
+25,"Smith, Carter and Davis",anthonybass@harmon-dawson.com,East
+26,Haynes and Sons,brittneyhancock@hotmail.com,North
+27,Rhodes-James,cjohnson@hotmail.com,West
+28,Turner LLC,rtaylor@hotmail.com,West
+29,"Garcia, Gentry and Gonzalez",cherylholmes@wells-curry.biz,South
+30,"Berry, Carpenter and Schroeder",michael07@hotmail.com,North
+31,"Jones, Robinson and Clark",christopher73@wilson.com,North
+32,Frank-Williams,amandawilson@hudson.net,West
+33,Conrad-Brown,williamwhite@gmail.com,South
+34,Benjamin-Bates,smithmichelle@gmail.com,East
+35,Hubbard-Farrell,pnorman@smith-huang.com,North
+36,Johnson and Sons,tiffanyhickman@johnson-lewis.biz,West
+37,"Norman, Smith and Jones",fraziercaitlin@gmail.com,South
+38,"Williams, Hodges and Elliott",blackhoward@ryan-martinez.org,South
+39,"Phelps, Martin and Cross",tammylong@wilson.net,West
+40,Sloan Group,wrightchad@rivas-boyer.net,East
+41,"Wilson, Gates and Singleton",tylercastro@schwartz.com,East
+42,"Price, Lee and Pena",kelly73@yahoo.com,South
+43,Davis-Lucas,ocole@moran.com,East
+44,"Baker, Dunn and Nelson",gilescharles@gmail.com,East
+45,"Blair, Brown and Watson",myerschristopher@johnston-atkinson.com,South
+46,"Young, Bennett and Krause",elizabethpark@yahoo.com,West
+47,Gordon-Williams,ycook@yahoo.com,North
+48,Taylor PLC,kennethsalas@richard-mueller.info,West
+49,Newton-Davis,snyderdonald@hotmail.com,East
+50,Zuniga Ltd,diamondrodgers@robertson-saunders.org,North
+51,Patterson-Salazar,thomas71@gonzalez-shah.org,South
+52,Johnson-Landry,jacqueline62@yahoo.com,North
+53,Schroeder LLC,qwhite@lopez.com,East
+54,Jones-Frazier,natalie79@hotmail.com,South
+55,"Warren, Patton and Jackson",marklewis@barker.com,West
+56,Moreno-Peck,odomsandra@beck.net,East
+57,Dean-Turner,gordonmichael@gomez.com,South
+58,Moore-Brennan,ryancochran@hotmail.com,East
+59,Good and Sons,scook@hotmail.com,South
+60,Walsh PLC,judymalone@gmail.com,North
+61,Jarvis Ltd,stephen55@yahoo.com,South
+62,Miller-Harris,omiller@finley.com,East
+63,Cox-Smith,steven85@hotmail.com,North
+64,Barron-Collins,jennifer50@thomas.com,North
+65,"Weiss, Johnson and Young",veronicataylor@hotmail.com,West
+66,Lee-Le,cameroncathy@brown-cameron.com,West
+67,Allen-Grant,robert75@burton.com,North
+68,"Hurst, Nichols and Arroyo",vmcmillan@leonard.com,North
+69,Johnson-Edwards,brianmendoza@kirk.com,South
+70,Medina Inc,tyler20@roberts-burton.com,North
+71,Gonzales-Martin,preston29@gill.com,South
+72,Gill Ltd,davidmendoza@gmail.com,South
+73,"Robinson, White and Rich",ellisgeorge@gmail.com,East
+74,"Taylor, Swanson and Johnson",ryansteven@hill.com,East
+75,Robinson-Garcia,travisfrederick@cole.org,East
+76,Case Ltd,pearsondavid@young.biz,West
+77,"Chandler, Porter and Conway",cassidydavis@hotmail.com,South
+78,"Cortez, Richard and Harris",johnarmstrong@tucker.info,East
+79,"Adkins, Williams and Day",lmurphy@hotmail.com,East
+80,Bates-Joseph,wmata@yahoo.com,East
+81,Hall-Webster,kathleengilmore@rodriguez-duke.net,East
+82,Powell PLC,jamesnewton@gmail.com,North
+83,Lewis and Sons,wendy31@gmail.com,South
+84,Walters and Sons,jimmy41@gmail.com,East
+85,"Mercado, Garcia and Bush",josephgallegos@hotmail.com,South
+86,Owen Group,odonnellshawn@hotmail.com,North
+87,Hernandez and Sons,clarkjeremiah@yahoo.com,North
+88,Sanchez-Wilson,daniel25@gmail.com,West
+89,Johnson-Cardenas,donna16@mckee-johnson.com,South
+90,"Green, Snyder and Hill",walkersuzanne@yahoo.com,North
+91,Hughes-Castro,gonzalezjustin@jones.net,East
+92,Ray Ltd,luis37@mendoza.com,East
+93,"Smith, Newton and Obrien",keith03@yahoo.com,South
+94,Torres Group,andersonrebecca@boyd-robinson.com,East
+95,Hudson-Ramirez,piercepatrick@hotmail.com,South
+96,"Graham, Serrano and Howard",randerson@gmail.com,North
+97,Pruitt PLC,michaelrodgers@yahoo.com,West
+98,"Mayer, Robinson and Mueller",morrisondave@holt.com,North
+99,Gutierrez and Sons,breannacox@hotmail.com,West
+100,"Mitchell, Wall and Small",johnrose@yahoo.com,East
