@@ -1,9 +1,37 @@
 model Model
 	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
 
 annotation PBI_ProTooling = ["DevMode"]
 
 annotation PBIDesktopVersion = 2.138.1004.0 (24.11)
+
+annotation PBI_QueryOrder = ["Sales","Clients","Employees","Products","Promotions","Returns","Shipping","Suppliers","Targets","TaxRates"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+ref table Sales
+ref table DateTableTemplate_6dad1c18-b732-4c2f-8d2c-562dc817510d
+ref table LocalDateTable_93226b1d-0263-4ecb-96e5-d65f3714a264
+ref table Clients
+ref table Employees
+ref table LocalDateTable_9aa7270b-4098-4fad-9283-bccd4ed6bfab
+ref table Products
+ref table Promotions
+ref table LocalDateTable_0135d056-b806-43b0-ae58-4c9bade525fa
+ref table LocalDateTable_cab721aa-8d9e-43cb-9092-9231fbb60708
+ref table Returns
+ref table LocalDateTable_bf1e093a-1477-44d4-bfe4-bbd9be887de1
+ref table Shipping
+ref table LocalDateTable_fde025c7-e80b-46c8-9d0c-940d93603fc9
+ref table Suppliers
+ref table Targets
+ref table LocalDateTable_e18db10b-b352-4748-be98-031bd49a066f
+ref table TaxRates
 
 ref cultureInfo en-US
 

@@ -1,0 +1,62 @@
+table Employees
+	lineageTag: f7268d18-676a-4ea5-9f33-8ab0dd590398
+
+	column EmployeeID
+		dataType: int64
+		formatString: 0
+		lineageTag: 7f334daa-7414-4fc6-9f32-9bb6957385c9
+		summarizeBy: none
+		sourceColumn: EmployeeID
+
+		annotation SummarizationSetBy = Automatic
+
+	column EmployeeName
+		dataType: string
+		lineageTag: c7321f6d-639e-464f-8153-d88861768a36
+		summarizeBy: none
+		sourceColumn: EmployeeName
+
+		annotation SummarizationSetBy = Automatic
+
+	column Role
+		dataType: string
+		lineageTag: 9163d0a7-463c-48da-8f2c-63c9856290b9
+		summarizeBy: none
+		sourceColumn: Role
+
+		annotation SummarizationSetBy = Automatic
+
+	column Department
+		dataType: string
+		lineageTag: b7d9d300-bb5b-4489-a180-b1214e22250d
+		summarizeBy: none
+		sourceColumn: Department
+
+		annotation SummarizationSetBy = Automatic
+
+	column HireDate
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: e528c913-4c6e-477a-bd5e-776a351130dc
+		summarizeBy: none
+		sourceColumn: HireDate
+
+		variation Variation
+			isDefault
+			relationship: 968f4fa3-d26d-49b8-8471-4b33d15da32b
+			defaultHierarchy: LocalDateTable_9aa7270b-4098-4fad-9283-bccd4ed6bfab.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Employees = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\PauloHenriquePereira\OneDrive - Pride Technologies\Paulo's Stuff\Projects\Summary-Sales-Report\Data\Employees.csv"),[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"EmployeeID", Int64.Type}, {"EmployeeName", type text}, {"Role", type text}, {"Department", type text}, {"HireDate", type datetime}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

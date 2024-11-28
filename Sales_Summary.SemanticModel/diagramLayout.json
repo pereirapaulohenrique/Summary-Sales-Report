@@ -7,9 +7,140 @@
         "x": 0,
         "y": 0
       },
-      "nodes": [],
+      "nodes": [
+        {
+          "location": {
+            "x": 350.71332419556092,
+            "y": 505.17031715231496
+          },
+          "nodeIndex": "Sales",
+          "nodeLineageTag": "f40aeee2-e79e-4a0c-8373-27578e8ad6ea",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 7,
+            "y": 0
+          },
+          "nodeIndex": "Clients",
+          "nodeLineageTag": "15481c9d-ddd5-4d42-8a92-a00cadd47a3c",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 332,
+            "y": 0
+          },
+          "nodeIndex": "Employees",
+          "nodeLineageTag": "f7268d18-676a-4ea5-9f33-8ab0dd590398",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 809.3372689890931,
+            "y": 279.67790329372303
+          },
+          "nodeIndex": "Products",
+          "nodeLineageTag": "298211af-9223-4b70-a0da-b9388a4277ca",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1298.7504183008671,
+            "y": 207.07082289507548
+          },
+          "nodeIndex": "Promotions",
+          "nodeLineageTag": "0b9e4533-1fbd-41ef-9f2a-644ac9ee59a4",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 805.34065321323033,
+            "y": 636.85327787364338
+          },
+          "nodeIndex": "Returns",
+          "nodeLineageTag": "ee0e9240-c177-48cd-b3fe-bbe1f0d5fd27",
+          "size": {
+            "height": 233.485664318918,
+            "width": 234
+          },
+          "zIndex": 10
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 519.93085030839279
+          },
+          "nodeIndex": "Shipping",
+          "nodeLineageTag": "65368929-7db0-417a-9aca-f5ccf180cd69",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 755.521104129356,
+            "y": 0
+          },
+          "nodeIndex": "Suppliers",
+          "nodeLineageTag": "fa886b7e-8a72-496d-89c7-773b2b1dca4a",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1301.8178947890058,
+            "y": 477.26811929748584
+          },
+          "nodeIndex": "Targets",
+          "nodeLineageTag": "e8376c28-99ae-42ff-80ed-b3b85a064064",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 1298.2394857525228,
+            "y": 0
+          },
+          "nodeIndex": "TaxRates",
+          "nodeLineageTag": "2b452d0c-f5ec-4480-b3ee-1a5b01b4b518",
+          "size": {
+            "height": 156.74030344565631,
+            "width": 234
+          },
+          "zIndex": 9
+        }
+      ],
       "name": "All tables",
-      "zoomValue": 100,
+      "zoomValue": 63.287087723233995,
       "pinKeyFieldsToTop": false,
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,

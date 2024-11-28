@@ -1,0 +1,78 @@
+table Promotions
+	lineageTag: 0b9e4533-1fbd-41ef-9f2a-644ac9ee59a4
+
+	column PromotionID
+		dataType: int64
+		formatString: 0
+		lineageTag: 40b72b51-f142-4be1-92d9-4f37de03051d
+		summarizeBy: count
+		sourceColumn: PromotionID
+
+		annotation SummarizationSetBy = Automatic
+
+	column PromotionName
+		dataType: string
+		lineageTag: 2ee887d9-437e-4b05-abe7-a175e30247b3
+		summarizeBy: none
+		sourceColumn: PromotionName
+
+		annotation SummarizationSetBy = Automatic
+
+	column StartDate
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 88cbf8f7-9e67-4d07-88cb-74761ba86102
+		summarizeBy: none
+		sourceColumn: StartDate
+
+		variation Variation
+			isDefault
+			relationship: 740d86c2-bcd3-4b99-8cdb-9269ebad2341
+			defaultHierarchy: LocalDateTable_0135d056-b806-43b0-ae58-4c9bade525fa.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column EndDate
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 8f312337-a7ef-46bd-bbc0-ae80c1363aeb
+		summarizeBy: none
+		sourceColumn: EndDate
+
+		variation Variation
+			isDefault
+			relationship: 32757360-c22d-4229-9dc6-0be8145f24da
+			defaultHierarchy: LocalDateTable_cab721aa-8d9e-43cb-9092-9231fbb60708.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiscountPercentage
+		dataType: double
+		lineageTag: c84a618b-20bc-4491-9351-3038e0e6fd5a
+		summarizeBy: sum
+		sourceColumn: DiscountPercentage
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column TargetAudience
+		dataType: string
+		lineageTag: 587d4822-68f4-4e4b-958d-37b38dbe28a1
+		summarizeBy: none
+		sourceColumn: TargetAudience
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Promotions = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\PauloHenriquePereira\OneDrive - Pride Technologies\Paulo's Stuff\Projects\Summary-Sales-Report\Data\Promotions.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"PromotionID", Int64.Type}, {"PromotionName", type text}, {"StartDate", type datetime}, {"EndDate", type datetime}, {"DiscountPercentage", type number}, {"TargetAudience", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

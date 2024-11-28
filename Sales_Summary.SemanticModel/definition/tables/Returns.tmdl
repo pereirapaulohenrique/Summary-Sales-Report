@@ -1,0 +1,74 @@
+table Returns
+	lineageTag: ee0e9240-c177-48cd-b3fe-bbe1f0d5fd27
+
+	column ReturnID
+		dataType: int64
+		formatString: 0
+		lineageTag: 66c80fc3-574c-41a8-8633-ce2a6c3c6c04
+		summarizeBy: count
+		sourceColumn: ReturnID
+
+		annotation SummarizationSetBy = Automatic
+
+	column SaleID
+		dataType: int64
+		formatString: 0
+		lineageTag: 10bc1ba4-7ca4-4f6c-905c-87d228fe2300
+		summarizeBy: none
+		sourceColumn: SaleID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductID
+		dataType: int64
+		formatString: 0
+		lineageTag: 96ef10a2-c0a3-41db-b050-d043819f90be
+		summarizeBy: count
+		sourceColumn: ProductID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ReturnDate
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 2aa9d42f-0703-46d3-a71f-d6332a546b12
+		summarizeBy: none
+		sourceColumn: ReturnDate
+
+		variation Variation
+			isDefault
+			relationship: 7eb82370-16e8-4da8-9ab4-59531943c980
+			defaultHierarchy: LocalDateTable_bf1e093a-1477-44d4-bfe4-bbd9be887de1.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column ReasonForReturn
+		dataType: string
+		lineageTag: 0772d3f3-f737-4ebb-ac04-28f90f825c34
+		summarizeBy: none
+		sourceColumn: ReasonForReturn
+
+		annotation SummarizationSetBy = Automatic
+
+	column ReturnAmount
+		dataType: double
+		lineageTag: 0648f716-3cfc-4995-b826-0c2eb6ab6213
+		summarizeBy: sum
+		sourceColumn: ReturnAmount
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Returns = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\PauloHenriquePereira\OneDrive - Pride Technologies\Paulo's Stuff\Projects\Summary-Sales-Report\Data\Returns.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"ReturnID", Int64.Type}, {"SaleID", Int64.Type}, {"ProductID", Int64.Type}, {"ReturnDate", type datetime}, {"ReasonForReturn", type text}, {"ReturnAmount", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

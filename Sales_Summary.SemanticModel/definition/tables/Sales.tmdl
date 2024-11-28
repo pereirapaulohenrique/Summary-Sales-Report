@@ -1,0 +1,132 @@
+table Sales
+	lineageTag: f40aeee2-e79e-4a0c-8373-27578e8ad6ea
+
+	column SaleID
+		dataType: int64
+		formatString: 0
+		lineageTag: f667e09a-f8af-4763-be0c-71f183e36685
+		summarizeBy: none
+		sourceColumn: SaleID
+
+		annotation SummarizationSetBy = Automatic
+
+	column TransactionID
+		dataType: int64
+		formatString: 0
+		lineageTag: 770cf85e-b541-4594-b8ab-58976129322f
+		summarizeBy: count
+		sourceColumn: TransactionID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 846a1657-d518-410e-bda4-b05742b8fafb
+		summarizeBy: none
+		sourceColumn: Date
+
+		variation Variation
+			isDefault
+			relationship: 7cf43e2b-df63-40f3-b533-aecca892d74d
+			defaultHierarchy: LocalDateTable_93226b1d-0263-4ecb-96e5-d65f3714a264.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column ClientID
+		dataType: int64
+		formatString: 0
+		lineageTag: 1636bac4-83dc-4f61-b388-473144b83d26
+		summarizeBy: none
+		sourceColumn: ClientID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductID
+		dataType: int64
+		formatString: 0
+		lineageTag: b025ec7e-a207-406e-9ed5-41e360a48ec5
+		summarizeBy: none
+		sourceColumn: ProductID
+
+		annotation SummarizationSetBy = Automatic
+
+	column LocationID
+		dataType: int64
+		formatString: 0
+		lineageTag: dbf59a2d-f765-4751-889b-7e6fa7d3acbf
+		summarizeBy: count
+		sourceColumn: LocationID
+
+		annotation SummarizationSetBy = Automatic
+
+	column EmployeeID
+		dataType: int64
+		formatString: 0
+		lineageTag: 8652fe09-a3de-4b44-af7c-e8edb774e2ea
+		summarizeBy: none
+		sourceColumn: EmployeeID
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuantitySold
+		dataType: int64
+		formatString: 0
+		lineageTag: c7bb116d-0596-487b-9113-06845203924e
+		summarizeBy: sum
+		sourceColumn: QuantitySold
+
+		annotation SummarizationSetBy = Automatic
+
+	column SalePrice
+		dataType: double
+		lineageTag: 2bbada3d-4e32-4434-98a9-79c0784c610e
+		summarizeBy: sum
+		sourceColumn: SalePrice
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DiscountAmount
+		dataType: double
+		lineageTag: 9cb91716-ed97-4045-a319-c8c4606526ed
+		summarizeBy: sum
+		sourceColumn: DiscountAmount
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DiscountPercent
+		dataType: double
+		lineageTag: 9e3767d5-78cc-46c0-be6f-51d16b85682e
+		summarizeBy: sum
+		sourceColumn: DiscountPercent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column TotalRevenue
+		dataType: double
+		lineageTag: dfa834b4-0df1-42cd-b1c0-38c315523333
+		summarizeBy: sum
+		sourceColumn: TotalRevenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Sales = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\PauloHenriquePereira\OneDrive - Pride Technologies\Paulo's Stuff\Projects\Summary-Sales-Report\Data\Sales.csv"),[Delimiter=",", Columns=12, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"SaleID", Int64.Type}, {"TransactionID", Int64.Type}, {"Date", type datetime}, {"ClientID", Int64.Type}, {"ProductID", Int64.Type}, {"LocationID", Int64.Type}, {"EmployeeID", Int64.Type}, {"QuantitySold", Int64.Type}, {"SalePrice", type number}, {"DiscountAmount", type number}, {"DiscountPercent", Percentage.Type}, {"TotalRevenue", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

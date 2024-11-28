@@ -1,0 +1,77 @@
+table Products
+	lineageTag: 298211af-9223-4b70-a0da-b9388a4277ca
+
+	column ProductID
+		dataType: int64
+		formatString: 0
+		lineageTag: e571f8a7-591f-45a5-a054-2f156c1fcd0a
+		summarizeBy: none
+		sourceColumn: ProductID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductName
+		dataType: string
+		lineageTag: f6e6c70d-9821-4b30-8d57-b46f3b118f84
+		summarizeBy: none
+		sourceColumn: ProductName
+
+		annotation SummarizationSetBy = Automatic
+
+	column Category
+		dataType: string
+		lineageTag: dc752e0f-c1c1-42c3-a4e4-2582710f3458
+		summarizeBy: none
+		sourceColumn: Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column Subcategory
+		dataType: string
+		lineageTag: 799bdab9-3f9c-4c2f-b184-e82a1d48d2d9
+		summarizeBy: none
+		sourceColumn: Subcategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column UnitCost
+		dataType: double
+		lineageTag: fd01bfd0-e1be-4be1-a8ea-bed56864f1f8
+		summarizeBy: sum
+		sourceColumn: UnitCost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column UnitSalePrice
+		dataType: double
+		lineageTag: ffad0690-2052-4a3e-9ba4-cd84fc70770a
+		summarizeBy: sum
+		sourceColumn: UnitSalePrice
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SupplierID
+		dataType: int64
+		formatString: 0
+		lineageTag: 064d2034-c937-4b2c-930d-c0ef58e41148
+		summarizeBy: none
+		sourceColumn: SupplierID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Products = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\PauloHenriquePereira\OneDrive - Pride Technologies\Paulo's Stuff\Projects\Summary-Sales-Report\Data\Products.csv"),[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"ProductID", Int64.Type}, {"ProductName", type text}, {"Category", type text}, {"Subcategory", type text}, {"UnitCost", type number}, {"UnitSalePrice", type number}, {"SupplierID", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

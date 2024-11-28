@@ -1,0 +1,73 @@
+table Shipping
+	lineageTag: 65368929-7db0-417a-9aca-f5ccf180cd69
+
+	column ShippingID
+		dataType: int64
+		formatString: 0
+		lineageTag: 8206097a-f412-4880-9f7d-99cf195f84c8
+		summarizeBy: count
+		sourceColumn: ShippingID
+
+		annotation SummarizationSetBy = Automatic
+
+	column SaleID
+		dataType: int64
+		formatString: 0
+		lineageTag: 24b81bb1-878b-418e-a587-dd3cce24ffff
+		summarizeBy: none
+		sourceColumn: SaleID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ShippingMethod
+		dataType: string
+		lineageTag: 00c7bab1-2f3f-4c5f-be6d-77c9e5e43020
+		summarizeBy: none
+		sourceColumn: ShippingMethod
+
+		annotation SummarizationSetBy = Automatic
+
+	column ShippingCost
+		dataType: double
+		lineageTag: 17f99766-2ad9-4763-bb0e-361bebfce3ea
+		summarizeBy: sum
+		sourceColumn: ShippingCost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column DeliveryDate
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 3e1bdcb9-8d9c-49d5-9fcd-c3237044d54c
+		summarizeBy: none
+		sourceColumn: DeliveryDate
+
+		variation Variation
+			isDefault
+			relationship: ca770a43-8a57-4a1e-9b98-4c30833c7537
+			defaultHierarchy: LocalDateTable_fde025c7-e80b-46c8-9d0c-940d93603fc9.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column ShipmentStatus
+		dataType: string
+		lineageTag: e6366436-2a05-411d-ad91-cb3804aba62b
+		summarizeBy: none
+		sourceColumn: ShipmentStatus
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Shipping = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\PauloHenriquePereira\OneDrive - Pride Technologies\Paulo's Stuff\Projects\Summary-Sales-Report\Data\Shipping.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"ShippingID", Int64.Type}, {"SaleID", Int64.Type}, {"ShippingMethod", type text}, {"ShippingCost", type number}, {"DeliveryDate", type datetime}, {"ShipmentStatus", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

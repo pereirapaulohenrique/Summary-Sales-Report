@@ -1,0 +1,48 @@
+table Suppliers
+	lineageTag: fa886b7e-8a72-496d-89c7-773b2b1dca4a
+
+	column SupplierID
+		dataType: int64
+		formatString: 0
+		lineageTag: c7418377-ca88-41a3-828b-2add24d15c55
+		summarizeBy: none
+		sourceColumn: SupplierID
+
+		annotation SummarizationSetBy = Automatic
+
+	column SupplierName
+		dataType: string
+		lineageTag: 5918aa55-f0e4-4712-9035-fde88f0cb16d
+		summarizeBy: none
+		sourceColumn: SupplierName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ContactInfo
+		dataType: string
+		lineageTag: 8646d4ee-7acc-4478-913a-7e59308abc26
+		summarizeBy: none
+		sourceColumn: ContactInfo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: ac24f636-8d16-411a-aed3-d613ceb135d6
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Suppliers = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\PauloHenriquePereira\OneDrive - Pride Technologies\Paulo's Stuff\Projects\Summary-Sales-Report\Data\Suppliers.csv"),[Delimiter=",", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"SupplierID", Int64.Type}, {"SupplierName", type text}, {"ContactInfo", type text}, {"Region", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

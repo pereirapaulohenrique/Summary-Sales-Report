@@ -1,0 +1,75 @@
+table Targets
+	lineageTag: e8376c28-99ae-42ff-80ed-b3b85a064064
+
+	column TargetID
+		dataType: int64
+		formatString: 0
+		lineageTag: ed524924-569c-4cfc-9482-634887ed1990
+		summarizeBy: count
+		sourceColumn: TargetID
+
+		annotation SummarizationSetBy = Automatic
+
+	column LocationID
+		dataType: int64
+		formatString: 0
+		lineageTag: b786fdec-2d1a-4b82-a0c6-05a83f4ceda3
+		summarizeBy: count
+		sourceColumn: LocationID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductCategory
+		dataType: string
+		lineageTag: 1bb3e4a6-cd45-409a-8a52-ca8f1fc33b00
+		summarizeBy: none
+		sourceColumn: ProductCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column Period
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: a760e139-2a0d-4816-a42f-254e08c9f8d0
+		summarizeBy: none
+		sourceColumn: Period
+
+		variation Variation
+			isDefault
+			relationship: 48946e35-13a0-4033-ba07-e39c055e54c6
+			defaultHierarchy: LocalDateTable_e18db10b-b352-4748-be98-031bd49a066f.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column SalesTarget
+		dataType: int64
+		formatString: 0
+		lineageTag: 1616c4fd-e0b4-4abf-8c3e-23124acc1b73
+		summarizeBy: sum
+		sourceColumn: SalesTarget
+
+		annotation SummarizationSetBy = Automatic
+
+	column GrossProfitTarget
+		dataType: int64
+		formatString: 0
+		lineageTag: bebb8d5b-bf3e-44b7-a044-7d3503c2ba92
+		summarizeBy: sum
+		sourceColumn: GrossProfitTarget
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Targets = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\PauloHenriquePereira\OneDrive - Pride Technologies\Paulo's Stuff\Projects\Summary-Sales-Report\Data\Targets.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"TargetID", Int64.Type}, {"LocationID", Int64.Type}, {"ProductCategory", type text}, {"Period", type date}, {"SalesTarget", Int64.Type}, {"GrossProfitTarget", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

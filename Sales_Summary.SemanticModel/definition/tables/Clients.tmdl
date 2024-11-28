@@ -1,0 +1,64 @@
+table Clients
+	lineageTag: 15481c9d-ddd5-4d42-8a92-a00cadd47a3c
+
+	column ClientID
+		dataType: int64
+		formatString: 0
+		lineageTag: 6c88b0dd-ac29-48aa-ae43-6dbdb18459c8
+		summarizeBy: none
+		sourceColumn: ClientID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ClientName
+		dataType: string
+		lineageTag: e8db3e5a-e4e8-45bd-bf04-15f903c2dfa2
+		summarizeBy: none
+		sourceColumn: ClientName
+
+		annotation SummarizationSetBy = Automatic
+
+	column Industry
+		dataType: string
+		lineageTag: faf93090-12f6-488b-af01-3980f508ae3b
+		summarizeBy: none
+		sourceColumn: Industry
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: 7e86a1cb-63d5-415a-a0c7-c007895f9226
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column ContactInfo
+		dataType: string
+		lineageTag: bdeded2b-8a12-4d0a-81de-a040e7d8b460
+		summarizeBy: none
+		sourceColumn: ContactInfo
+
+		annotation SummarizationSetBy = Automatic
+
+	column ClientSegment
+		dataType: string
+		lineageTag: 3241c895-5b16-4f63-a135-54a6207d2085
+		summarizeBy: none
+		sourceColumn: ClientSegment
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Clients = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\PauloHenriquePereira\OneDrive - Pride Technologies\Paulo's Stuff\Projects\Summary-Sales-Report\Data\Clients.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"ClientID", Int64.Type}, {"ClientName", type text}, {"Industry", type text}, {"Region", type text}, {"ContactInfo", type text}, {"ClientSegment", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

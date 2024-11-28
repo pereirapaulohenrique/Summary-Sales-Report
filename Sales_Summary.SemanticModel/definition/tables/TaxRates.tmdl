@@ -1,0 +1,42 @@
+table TaxRates
+	lineageTag: 2b452d0c-f5ec-4480-b3ee-1a5b01b4b518
+
+	column TaxRateID
+		dataType: int64
+		formatString: 0
+		lineageTag: 99777b4c-d699-4b3f-9478-25c56e860353
+		summarizeBy: count
+		sourceColumn: TaxRateID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: 05170601-29b0-4870-b21d-184f2d6d0af4
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column TaxPercentage
+		dataType: double
+		lineageTag: 9cf0f212-9f77-4842-ad12-db695c2e86cb
+		summarizeBy: sum
+		sourceColumn: TaxPercentage
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition TaxRates = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\PauloHenriquePereira\OneDrive - Pride Technologies\Paulo's Stuff\Projects\Summary-Sales-Report\Data\TaxRates.csv"),[Delimiter=",", Columns=3, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"TaxRateID", Int64.Type}, {"Region", type text}, {"TaxPercentage", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
