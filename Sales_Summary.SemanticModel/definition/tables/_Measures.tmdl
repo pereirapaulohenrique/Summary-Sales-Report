@@ -6,6 +6,16 @@ table _Measures
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure 'Total Cost' = SUMX(Sales, Sales[QuantitySold] * Sales[CostPrice])
+		lineageTag: 85de3949-ad94-4692-bec6-0f06eb62a53a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Gross Profit' = [Sales Revenue] - [Total Cost]
+		lineageTag: c2698ab3-4172-4949-930d-fd40773b0530
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	partition _Measures = m
 		mode: import
 		source =

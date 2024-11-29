@@ -121,6 +121,14 @@ table Sales
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	column CostPrice = RELATED(Products[UnitCost])
+		lineageTag: 9897e1c6-700f-4182-8715-c773f928df1e
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	partition Sales = m
 		mode: import
 		source =

@@ -1,501 +1,501 @@
 ProductID,ProductName,Category,Subcategory,UnitCost,UnitSalePrice,SupplierID
-1,Workout Leggings Effort,Sports Apparel,Workout Leggings,56.32,74.11,93
-2,Dried Fruits As,Healthy Snacks,Dried Fruits,146.43,260.34,78
-3,Dumbbells Article,Fitness Equipment,Dumbbells,63.62,28.45,2
-4,Treadmills Choose,Fitness Equipment,Treadmills,83.15,236.75,31
-5,Resistance Bands Which,Fitness Equipment,Resistance Bands,128.72,231.29,47
-6,Treadmills Base,Fitness Equipment,Treadmills,109.21,173.12,67
-7,Sports Jerseys Recent,Sports Apparel,Sports Jerseys,97.23,170.55,12
-8,Exercise Bikes Hope,Fitness Equipment,Exercise Bikes,149.95,46.36,23
-9,Workout Leggings Whom,Sports Apparel,Workout Leggings,98.26,262.53,72
-10,Resistance Bands If,Fitness Equipment,Resistance Bands,59.94,67.08,49
-11,Sports Jerseys Matter,Sports Apparel,Sports Jerseys,79.73,107.87,85
-12,Compression Wear Pay,Sports Apparel,Compression Wear,83.84,204.98,66
-13,Running Shoes Serve,Sports Apparel,Running Shoes,19.53,60.97,90
-14,Resistance Bands Allow,Fitness Equipment,Resistance Bands,63.39,163.12,13
-15,Energy Drinks Contain,Healthy Snacks,Energy Drinks,66.35,292.56,14
-16,Trail Mix Short,Healthy Snacks,Trail Mix,72.92,34.89,82
-17,Resistance Bands Statement,Fitness Equipment,Resistance Bands,55.83,67.16,50
-18,Treadmills Head,Fitness Equipment,Treadmills,132.55,183.56,88
-19,Exercise Bikes Individual,Fitness Equipment,Exercise Bikes,84.37,93.29,100
-20,Protein Bars Field,Healthy Snacks,Protein Bars,54.49,226.76,45
-21,Sports Jerseys Theory,Sports Apparel,Sports Jerseys,120.81,16.86,93
-22,Sports Bras Purpose,Sports Apparel,Sports Bras,86.13,248.11,22
-23,Dried Fruits This,Healthy Snacks,Dried Fruits,146.91,76.83,34
-24,Organic Snacks Describe,Healthy Snacks,Organic Snacks,103.91,229.41,4
-25,Energy Drinks Eat,Healthy Snacks,Energy Drinks,48.02,158.34,38
-26,Dumbbells West,Fitness Equipment,Dumbbells,17.15,193.57,51
-27,Workout Leggings Forget,Sports Apparel,Workout Leggings,90.83,59.94,17
-28,Dumbbells Network,Fitness Equipment,Dumbbells,123.19,259.29,47
-29,Running Shoes Soon,Sports Apparel,Running Shoes,87.96,49.34,72
-30,Energy Drinks Magazine,Healthy Snacks,Energy Drinks,93.5,275.1,96
-31,Protein Bars American,Healthy Snacks,Protein Bars,54.44,234.04,10
-32,Energy Drinks Catch,Healthy Snacks,Energy Drinks,149.15,272.19,45
-33,Exercise Bikes Against,Fitness Equipment,Exercise Bikes,77.95,173.69,41
-34,Sports Bras Necessary,Sports Apparel,Sports Bras,147.47,299.38,30
-35,Dried Fruits Across,Healthy Snacks,Dried Fruits,28.35,140.01,58
-36,Organic Snacks Best,Healthy Snacks,Organic Snacks,77.38,268.23,49
-37,Sports Jerseys Fear,Sports Apparel,Sports Jerseys,45.39,86.54,35
-38,Trail Mix Hour,Healthy Snacks,Trail Mix,50.6,121.11,3
-39,Sports Bras Fire,Sports Apparel,Sports Bras,76.43,61.02,46
-40,Organic Snacks Contain,Healthy Snacks,Organic Snacks,117.3,55.62,44
-41,Dumbbells Pattern,Fitness Equipment,Dumbbells,46.19,162.65,14
-42,Treadmills Beyond,Fitness Equipment,Treadmills,41.22,137.07,80
-43,Treadmills These,Fitness Equipment,Treadmills,146.43,242.15,70
-44,Workout Leggings Common,Sports Apparel,Workout Leggings,89.86,191.04,71
-45,Protein Bars Appear,Healthy Snacks,Protein Bars,15.98,218.83,60
-46,Yoga Mats Ok,Fitness Equipment,Yoga Mats,79.75,94.61,92
-47,Organic Snacks Every,Healthy Snacks,Organic Snacks,30.54,89.39,67
-48,Sports Bras Could,Sports Apparel,Sports Bras,136.63,230.84,87
-49,Exercise Bikes Old,Fitness Equipment,Exercise Bikes,20.05,21.12,38
-50,Yoga Mats Between,Fitness Equipment,Yoga Mats,115.74,204.12,90
-51,Organic Snacks Friend,Healthy Snacks,Organic Snacks,49.95,233.67,44
-52,Treadmills Take,Fitness Equipment,Treadmills,142.49,31.91,43
-53,Treadmills Team,Fitness Equipment,Treadmills,107.11,31.5,49
-54,Treadmills Including,Fitness Equipment,Treadmills,55.16,249.79,73
-55,Treadmills Around,Fitness Equipment,Treadmills,144.75,175.38,29
-56,Workout Leggings Possible,Sports Apparel,Workout Leggings,102.34,217.07,12
-57,Energy Drinks With,Healthy Snacks,Energy Drinks,142.53,117.82,38
-58,Organic Snacks Military,Healthy Snacks,Organic Snacks,132.63,169.39,13
-59,Dried Fruits Field,Healthy Snacks,Dried Fruits,99.07,117.48,7
-60,Yoga Mats Also,Fitness Equipment,Yoga Mats,30.53,139.52,70
-61,Dried Fruits Series,Healthy Snacks,Dried Fruits,25.51,235.09,7
-62,Resistance Bands Sign,Fitness Equipment,Resistance Bands,88.69,187.41,95
-63,Resistance Bands Something,Fitness Equipment,Resistance Bands,35.36,178.03,44
-64,Organic Snacks Interview,Healthy Snacks,Organic Snacks,52.04,43.94,5
-65,Organic Snacks Name,Healthy Snacks,Organic Snacks,33.57,91.15,74
-66,Treadmills Democrat,Fitness Equipment,Treadmills,95.67,172.27,9
-67,Trail Mix Relate,Healthy Snacks,Trail Mix,132.39,160.04,67
-68,Workout Leggings Senior,Sports Apparel,Workout Leggings,88.39,216.07,58
-69,Dumbbells Little,Fitness Equipment,Dumbbells,146.27,137.45,56
-70,Dumbbells Total,Fitness Equipment,Dumbbells,146.62,39.67,46
-71,Trail Mix Table,Healthy Snacks,Trail Mix,121.84,221.78,95
-72,Compression Wear Accept,Sports Apparel,Compression Wear,47.26,59.5,39
-73,Yoga Mats Score,Fitness Equipment,Yoga Mats,111.71,120.15,72
-74,Exercise Bikes Explain,Fitness Equipment,Exercise Bikes,45.08,235.1,50
-75,Treadmills Provide,Fitness Equipment,Treadmills,117.01,130.15,64
-76,Yoga Mats Off,Fitness Equipment,Yoga Mats,76.85,268.52,56
-77,Resistance Bands By,Fitness Equipment,Resistance Bands,85.38,238.81,32
-78,Workout Leggings Anyone,Sports Apparel,Workout Leggings,26.4,290.31,16
-79,Organic Snacks Role,Healthy Snacks,Organic Snacks,139.49,125.76,13
-80,Exercise Bikes School,Fitness Equipment,Exercise Bikes,49.52,58.47,64
-81,Sports Jerseys Recently,Sports Apparel,Sports Jerseys,93.98,36.47,77
-82,Dumbbells Newspaper,Fitness Equipment,Dumbbells,147.24,18.46,56
-83,Dried Fruits Suddenly,Healthy Snacks,Dried Fruits,142.48,29.94,69
-84,Energy Drinks Baby,Healthy Snacks,Energy Drinks,115.4,111.78,60
-85,Exercise Bikes Reduce,Fitness Equipment,Exercise Bikes,98.45,24.9,64
-86,Compression Wear Star,Sports Apparel,Compression Wear,125.36,36.06,13
-87,Dried Fruits Spend,Healthy Snacks,Dried Fruits,124.43,178.31,49
-88,Workout Leggings Animal,Sports Apparel,Workout Leggings,148.32,77.42,99
-89,Trail Mix Choice,Healthy Snacks,Trail Mix,63.4,252.4,1
-90,Sports Jerseys Dinner,Sports Apparel,Sports Jerseys,125.41,105.6,47
-91,Organic Snacks Not,Healthy Snacks,Organic Snacks,60.96,243.15,78
-92,Running Shoes Easy,Sports Apparel,Running Shoes,101.28,81.74,98
-93,Treadmills Necessary,Fitness Equipment,Treadmills,135.11,108.32,2
-94,Exercise Bikes Yet,Fitness Equipment,Exercise Bikes,39.41,245.87,32
-95,Running Shoes Hundred,Sports Apparel,Running Shoes,75.34,61.28,81
-96,Dumbbells Idea,Fitness Equipment,Dumbbells,130.83,196.68,98
-97,Trail Mix Central,Healthy Snacks,Trail Mix,106.52,15.43,35
-98,Dumbbells Put,Fitness Equipment,Dumbbells,35.68,150.09,90
-99,Energy Drinks Boy,Healthy Snacks,Energy Drinks,27.94,140.06,6
-100,Treadmills Citizen,Fitness Equipment,Treadmills,19.96,123.48,14
-101,Yoga Mats Manager,Fitness Equipment,Yoga Mats,100.95,18.86,76
-102,Workout Leggings Main,Sports Apparel,Workout Leggings,141.17,215.43,96
-103,Sports Bras Majority,Sports Apparel,Sports Bras,19.3,121.5,21
-104,Energy Drinks End,Healthy Snacks,Energy Drinks,141.83,276.95,49
-105,Compression Wear Rock,Sports Apparel,Compression Wear,133.97,55.84,58
-106,Dried Fruits They,Healthy Snacks,Dried Fruits,31.89,82.02,71
-107,Dried Fruits Than,Healthy Snacks,Dried Fruits,89.78,184.77,73
-108,Resistance Bands Former,Fitness Equipment,Resistance Bands,106.42,83.16,24
-109,Sports Bras Common,Sports Apparel,Sports Bras,14.39,211.27,47
-110,Compression Wear Look,Sports Apparel,Compression Wear,39.46,194.11,45
-111,Treadmills Deal,Fitness Equipment,Treadmills,132.4,18.21,1
-112,Energy Drinks National,Healthy Snacks,Energy Drinks,36.78,26.62,8
-113,Resistance Bands Group,Fitness Equipment,Resistance Bands,91.99,186.91,17
-114,Resistance Bands Center,Fitness Equipment,Resistance Bands,96.64,64.87,95
-115,Sports Bras Paper,Sports Apparel,Sports Bras,19.09,99.98,52
-116,Protein Bars Try,Healthy Snacks,Protein Bars,46.97,116.78,79
-117,Yoga Mats Floor,Fitness Equipment,Yoga Mats,103.75,106.69,18
-118,Energy Drinks Base,Healthy Snacks,Energy Drinks,41.97,178.72,57
-119,Sports Bras Range,Sports Apparel,Sports Bras,62.65,18.8,98
-120,Yoga Mats Nor,Fitness Equipment,Yoga Mats,114.48,154.76,43
-121,Sports Jerseys Learn,Sports Apparel,Sports Jerseys,33.22,153.74,70
-122,Energy Drinks Fast,Healthy Snacks,Energy Drinks,38.79,158.96,45
-123,Energy Drinks Sea,Healthy Snacks,Energy Drinks,10.94,57.42,44
-124,Dumbbells Have,Fitness Equipment,Dumbbells,29.36,156.88,30
-125,Dumbbells Local,Fitness Equipment,Dumbbells,97.83,27.09,50
-126,Sports Jerseys Wish,Sports Apparel,Sports Jerseys,47.92,44.84,70
-127,Trail Mix Magazine,Healthy Snacks,Trail Mix,102.23,283.45,41
-128,Organic Snacks Read,Healthy Snacks,Organic Snacks,47.38,274.35,27
-129,Running Shoes Whole,Sports Apparel,Running Shoes,52.17,269.9,25
-130,Trail Mix Teacher,Healthy Snacks,Trail Mix,40.22,89.3,56
-131,Compression Wear Traditional,Sports Apparel,Compression Wear,14.11,209.87,44
-132,Exercise Bikes Strong,Fitness Equipment,Exercise Bikes,46.41,222.59,47
-133,Dumbbells Join,Fitness Equipment,Dumbbells,38.0,100.02,46
-134,Dried Fruits Health,Healthy Snacks,Dried Fruits,117.43,221.77,12
-135,Workout Leggings Kitchen,Sports Apparel,Workout Leggings,70.58,137.7,53
-136,Protein Bars Wish,Healthy Snacks,Protein Bars,113.49,250.36,81
-137,Protein Bars Fine,Healthy Snacks,Protein Bars,149.94,225.32,12
-138,Yoga Mats Behind,Fitness Equipment,Yoga Mats,76.06,263.54,4
-139,Exercise Bikes Month,Fitness Equipment,Exercise Bikes,105.21,27.81,16
-140,Dried Fruits Property,Healthy Snacks,Dried Fruits,107.47,202.95,24
-141,Sports Bras Peace,Sports Apparel,Sports Bras,83.58,28.22,100
-142,Running Shoes Sound,Sports Apparel,Running Shoes,46.88,262.36,9
-143,Sports Bras Debate,Sports Apparel,Sports Bras,113.81,22.54,52
-144,Compression Wear Reality,Sports Apparel,Compression Wear,64.07,104.39,16
-145,Protein Bars Operation,Healthy Snacks,Protein Bars,64.73,86.49,33
-146,Trail Mix Both,Healthy Snacks,Trail Mix,78.63,116.32,39
-147,Sports Jerseys Present,Sports Apparel,Sports Jerseys,46.93,56.75,10
-148,Workout Leggings Business,Sports Apparel,Workout Leggings,11.28,191.3,63
-149,Protein Bars Near,Healthy Snacks,Protein Bars,80.71,219.85,86
-150,Compression Wear On,Sports Apparel,Compression Wear,124.37,207.53,27
-151,Workout Leggings Try,Sports Apparel,Workout Leggings,68.89,218.12,29
-152,Energy Drinks These,Healthy Snacks,Energy Drinks,148.68,187.89,37
-153,Yoga Mats Of,Fitness Equipment,Yoga Mats,19.74,105.94,17
-154,Energy Drinks Soldier,Healthy Snacks,Energy Drinks,146.74,56.95,85
-155,Energy Drinks Bag,Healthy Snacks,Energy Drinks,65.23,225.14,3
-156,Energy Drinks Range,Healthy Snacks,Energy Drinks,128.99,156.39,86
-157,Sports Bras Little,Sports Apparel,Sports Bras,27.37,124.32,73
-158,Protein Bars Traditional,Healthy Snacks,Protein Bars,102.21,159.35,72
-159,Energy Drinks Middle,Healthy Snacks,Energy Drinks,120.94,171.44,4
-160,Workout Leggings Later,Sports Apparel,Workout Leggings,48.34,285.51,39
-161,Workout Leggings Mission,Sports Apparel,Workout Leggings,93.64,35.73,85
-162,Organic Snacks Green,Healthy Snacks,Organic Snacks,55.0,54.76,77
-163,Dried Fruits Card,Healthy Snacks,Dried Fruits,65.99,184.71,28
-164,Compression Wear Grow,Sports Apparel,Compression Wear,16.34,79.69,56
-165,Exercise Bikes Often,Fitness Equipment,Exercise Bikes,142.76,231.16,6
-166,Dumbbells Claim,Fitness Equipment,Dumbbells,47.27,286.53,100
-167,Sports Jerseys Without,Sports Apparel,Sports Jerseys,12.41,183.63,89
-168,Sports Jerseys Laugh,Sports Apparel,Sports Jerseys,42.81,193.24,92
-169,Resistance Bands Attack,Fitness Equipment,Resistance Bands,80.63,263.39,24
-170,Trail Mix Perform,Healthy Snacks,Trail Mix,124.86,115.29,100
-171,Energy Drinks Finally,Healthy Snacks,Energy Drinks,15.71,198.34,21
-172,Sports Jerseys Loss,Sports Apparel,Sports Jerseys,70.04,271.6,69
-173,Sports Bras Range,Sports Apparel,Sports Bras,67.41,27.6,13
-174,Resistance Bands Nation,Fitness Equipment,Resistance Bands,15.15,84.4,86
-175,Compression Wear His,Sports Apparel,Compression Wear,135.38,267.66,40
-176,Yoga Mats Others,Fitness Equipment,Yoga Mats,140.68,272.42,13
-177,Running Shoes Money,Sports Apparel,Running Shoes,137.19,172.55,84
-178,Compression Wear Chair,Sports Apparel,Compression Wear,60.91,134.4,15
-179,Dried Fruits Election,Healthy Snacks,Dried Fruits,31.59,188.47,36
-180,Yoga Mats Director,Fitness Equipment,Yoga Mats,100.21,201.78,86
-181,Resistance Bands Door,Fitness Equipment,Resistance Bands,42.62,53.97,78
-182,Compression Wear Traditional,Sports Apparel,Compression Wear,46.41,247.29,8
-183,Workout Leggings Big,Sports Apparel,Workout Leggings,122.06,19.96,82
-184,Yoga Mats Lose,Fitness Equipment,Yoga Mats,81.94,286.75,85
-185,Dried Fruits Magazine,Healthy Snacks,Dried Fruits,24.96,287.09,5
-186,Sports Bras Into,Sports Apparel,Sports Bras,83.07,27.59,21
-187,Dried Fruits Listen,Healthy Snacks,Dried Fruits,46.05,60.52,12
-188,Yoga Mats Alone,Fitness Equipment,Yoga Mats,104.26,138.3,42
-189,Organic Snacks Which,Healthy Snacks,Organic Snacks,105.67,163.78,30
-190,Treadmills Blue,Fitness Equipment,Treadmills,103.94,164.4,40
-191,Compression Wear Daughter,Sports Apparel,Compression Wear,25.53,15.97,80
-192,Treadmills Turn,Fitness Equipment,Treadmills,145.09,213.07,61
-193,Trail Mix Popular,Healthy Snacks,Trail Mix,123.18,291.13,75
-194,Yoga Mats Building,Fitness Equipment,Yoga Mats,42.13,208.91,47
-195,Compression Wear Imagine,Sports Apparel,Compression Wear,101.78,137.04,58
-196,Organic Snacks Them,Healthy Snacks,Organic Snacks,122.0,238.44,52
-197,Running Shoes Morning,Sports Apparel,Running Shoes,114.65,34.38,6
-198,Treadmills Card,Fitness Equipment,Treadmills,144.8,103.95,46
-199,Sports Bras Catch,Sports Apparel,Sports Bras,139.94,60.59,68
-200,Resistance Bands Front,Fitness Equipment,Resistance Bands,112.9,29.3,13
-201,Energy Drinks Interesting,Healthy Snacks,Energy Drinks,134.56,71.75,1
-202,Trail Mix Main,Healthy Snacks,Trail Mix,146.16,179.44,74
-203,Yoga Mats Clear,Fitness Equipment,Yoga Mats,85.97,65.42,69
-204,Compression Wear Manage,Sports Apparel,Compression Wear,10.72,146.65,24
-205,Yoga Mats Whose,Fitness Equipment,Yoga Mats,44.71,141.48,84
-206,Trail Mix Sure,Healthy Snacks,Trail Mix,143.91,260.02,41
-207,Trail Mix Pass,Healthy Snacks,Trail Mix,98.19,55.97,30
-208,Protein Bars Office,Healthy Snacks,Protein Bars,22.36,63.3,33
-209,Dumbbells Thing,Fitness Equipment,Dumbbells,114.97,284.13,99
-210,Energy Drinks Join,Healthy Snacks,Energy Drinks,127.16,57.68,44
-211,Treadmills Group,Fitness Equipment,Treadmills,20.13,234.72,42
-212,Organic Snacks Law,Healthy Snacks,Organic Snacks,29.73,83.1,40
-213,Trail Mix Here,Healthy Snacks,Trail Mix,68.21,231.57,25
-214,Trail Mix Mission,Healthy Snacks,Trail Mix,117.9,230.24,42
-215,Dumbbells Military,Fitness Equipment,Dumbbells,39.77,69.93,18
-216,Resistance Bands Despite,Fitness Equipment,Resistance Bands,57.64,218.74,10
-217,Compression Wear Four,Sports Apparel,Compression Wear,10.82,89.49,77
-218,Compression Wear Art,Sports Apparel,Compression Wear,31.7,68.49,76
-219,Treadmills Standard,Fitness Equipment,Treadmills,90.64,220.89,32
-220,Running Shoes News,Sports Apparel,Running Shoes,110.4,167.37,86
-221,Organic Snacks Customer,Healthy Snacks,Organic Snacks,77.52,252.87,54
-222,Workout Leggings Environmental,Sports Apparel,Workout Leggings,131.05,270.73,32
-223,Sports Bras Development,Sports Apparel,Sports Bras,130.1,134.27,63
-224,Trail Mix Mission,Healthy Snacks,Trail Mix,83.61,57.75,1
-225,Treadmills Girl,Fitness Equipment,Treadmills,133.63,165.27,41
-226,Dumbbells Home,Fitness Equipment,Dumbbells,46.19,242.32,90
-227,Compression Wear Else,Sports Apparel,Compression Wear,26.07,226.42,36
-228,Exercise Bikes Program,Fitness Equipment,Exercise Bikes,35.49,18.36,23
-229,Protein Bars More,Healthy Snacks,Protein Bars,11.77,16.79,59
-230,Workout Leggings Marriage,Sports Apparel,Workout Leggings,62.41,20.9,23
-231,Resistance Bands Away,Fitness Equipment,Resistance Bands,113.42,18.73,76
-232,Compression Wear So,Sports Apparel,Compression Wear,116.07,61.72,93
-233,Trail Mix Strategy,Healthy Snacks,Trail Mix,134.69,104.82,97
-234,Trail Mix Truth,Healthy Snacks,Trail Mix,23.17,160.14,13
-235,Dried Fruits Them,Healthy Snacks,Dried Fruits,136.48,52.16,28
-236,Dried Fruits No,Healthy Snacks,Dried Fruits,131.44,255.39,62
-237,Resistance Bands House,Fitness Equipment,Resistance Bands,74.91,42.09,70
-238,Protein Bars Evidence,Healthy Snacks,Protein Bars,47.84,127.49,34
-239,Yoga Mats Compare,Fitness Equipment,Yoga Mats,138.68,149.86,3
-240,Energy Drinks Common,Healthy Snacks,Energy Drinks,126.63,66.06,76
-241,Sports Jerseys Probably,Sports Apparel,Sports Jerseys,95.06,33.28,39
-242,Protein Bars Miss,Healthy Snacks,Protein Bars,128.19,73.02,62
-243,Exercise Bikes Occur,Fitness Equipment,Exercise Bikes,18.13,144.22,7
-244,Energy Drinks Alone,Healthy Snacks,Energy Drinks,119.07,214.52,91
-245,Workout Leggings Let,Sports Apparel,Workout Leggings,8.22,103.67,57
-246,Energy Drinks Cup,Healthy Snacks,Energy Drinks,17.11,288.13,19
-247,Trail Mix Begin,Healthy Snacks,Trail Mix,93.7,289.78,65
-248,Sports Bras Story,Sports Apparel,Sports Bras,120.67,177.63,8
-249,Dumbbells Along,Fitness Equipment,Dumbbells,55.93,59.28,100
-250,Workout Leggings Song,Sports Apparel,Workout Leggings,137.57,20.67,9
-251,Sports Jerseys Attack,Sports Apparel,Sports Jerseys,22.3,296.7,97
-252,Running Shoes Owner,Sports Apparel,Running Shoes,93.96,111.88,59
-253,Sports Bras Hotel,Sports Apparel,Sports Bras,142.39,209.18,52
-254,Energy Drinks Onto,Healthy Snacks,Energy Drinks,149.66,191.29,99
-255,Compression Wear Amount,Sports Apparel,Compression Wear,87.2,210.71,70
-256,Dumbbells Garden,Fitness Equipment,Dumbbells,66.26,181.38,2
-257,Running Shoes Attention,Sports Apparel,Running Shoes,32.78,296.82,14
-258,Sports Bras Past,Sports Apparel,Sports Bras,29.24,276.82,91
-259,Compression Wear Treatment,Sports Apparel,Compression Wear,30.17,154.79,55
-260,Yoga Mats Perform,Fitness Equipment,Yoga Mats,58.79,40.93,95
-261,Dried Fruits Response,Healthy Snacks,Dried Fruits,8.88,223.66,84
-262,Treadmills Note,Fitness Equipment,Treadmills,51.45,275.24,23
-263,Yoga Mats Teach,Fitness Equipment,Yoga Mats,137.78,254.38,50
-264,Dumbbells Everybody,Fitness Equipment,Dumbbells,90.14,258.18,62
-265,Resistance Bands Friend,Fitness Equipment,Resistance Bands,35.19,19.01,87
-266,Organic Snacks Certain,Healthy Snacks,Organic Snacks,98.74,115.41,62
-267,Compression Wear During,Sports Apparel,Compression Wear,88.35,43.74,1
-268,Dried Fruits Relate,Healthy Snacks,Dried Fruits,122.23,164.5,8
-269,Dumbbells Respond,Fitness Equipment,Dumbbells,61.34,292.27,64
-270,Energy Drinks Realize,Healthy Snacks,Energy Drinks,47.64,247.67,59
-271,Dumbbells Save,Fitness Equipment,Dumbbells,96.87,266.21,86
-272,Exercise Bikes Teach,Fitness Equipment,Exercise Bikes,10.92,154.48,69
-273,Workout Leggings Address,Sports Apparel,Workout Leggings,82.66,136.14,26
-274,Trail Mix Back,Healthy Snacks,Trail Mix,98.39,62.3,99
-275,Dumbbells Budget,Fitness Equipment,Dumbbells,96.25,30.02,36
-276,Sports Bras Leg,Sports Apparel,Sports Bras,107.45,199.38,20
-277,Workout Leggings Recent,Sports Apparel,Workout Leggings,52.9,54.7,24
-278,Resistance Bands Pass,Fitness Equipment,Resistance Bands,99.73,33.17,27
-279,Sports Jerseys Home,Sports Apparel,Sports Jerseys,146.4,115.03,52
-280,Sports Jerseys Past,Sports Apparel,Sports Jerseys,76.96,265.34,20
-281,Energy Drinks Organization,Healthy Snacks,Energy Drinks,91.25,128.5,79
-282,Sports Bras Training,Sports Apparel,Sports Bras,121.41,91.65,35
-283,Trail Mix Physical,Healthy Snacks,Trail Mix,17.88,232.13,67
-284,Organic Snacks New,Healthy Snacks,Organic Snacks,80.37,269.98,91
-285,Resistance Bands Federal,Fitness Equipment,Resistance Bands,53.81,65.52,51
-286,Dried Fruits Rule,Healthy Snacks,Dried Fruits,64.85,207.54,58
-287,Dried Fruits Already,Healthy Snacks,Dried Fruits,26.87,46.12,94
-288,Dumbbells Now,Fitness Equipment,Dumbbells,44.58,284.05,100
-289,Compression Wear Trade,Sports Apparel,Compression Wear,44.94,41.09,91
-290,Yoga Mats Republican,Fitness Equipment,Yoga Mats,87.97,181.69,59
-291,Trail Mix Study,Healthy Snacks,Trail Mix,138.84,104.67,99
-292,Workout Leggings Official,Sports Apparel,Workout Leggings,41.19,161.19,42
-293,Running Shoes Threat,Sports Apparel,Running Shoes,49.96,189.41,30
-294,Dried Fruits Recent,Healthy Snacks,Dried Fruits,82.67,194.58,79
-295,Running Shoes Open,Sports Apparel,Running Shoes,92.04,179.79,20
-296,Resistance Bands Base,Fitness Equipment,Resistance Bands,76.19,84.48,83
-297,Organic Snacks Concern,Healthy Snacks,Organic Snacks,110.87,252.57,70
-298,Dumbbells Cover,Fitness Equipment,Dumbbells,78.33,61.36,33
-299,Yoga Mats Color,Fitness Equipment,Yoga Mats,10.78,172.79,7
-300,Running Shoes Administration,Sports Apparel,Running Shoes,138.89,49.57,19
-301,Running Shoes Interview,Sports Apparel,Running Shoes,86.09,69.84,84
-302,Protein Bars Analysis,Healthy Snacks,Protein Bars,91.19,140.06,88
-303,Sports Bras Pay,Sports Apparel,Sports Bras,59.04,149.8,81
-304,Protein Bars Focus,Healthy Snacks,Protein Bars,142.31,23.44,29
-305,Dried Fruits Pressure,Healthy Snacks,Dried Fruits,22.29,49.58,91
-306,Trail Mix Color,Healthy Snacks,Trail Mix,86.55,238.42,87
-307,Resistance Bands Recognize,Fitness Equipment,Resistance Bands,18.63,153.97,31
-308,Yoga Mats Describe,Fitness Equipment,Yoga Mats,133.67,191.89,23
-309,Workout Leggings Organization,Sports Apparel,Workout Leggings,104.29,254.72,59
-310,Workout Leggings Exist,Sports Apparel,Workout Leggings,138.21,123.64,48
-311,Exercise Bikes Same,Fitness Equipment,Exercise Bikes,47.66,74.41,5
-312,Sports Bras Impact,Sports Apparel,Sports Bras,74.41,46.95,77
-313,Protein Bars Despite,Healthy Snacks,Protein Bars,62.12,126.56,81
-314,Trail Mix Employee,Healthy Snacks,Trail Mix,105.4,28.19,28
-315,Trail Mix Ball,Healthy Snacks,Trail Mix,96.41,55.46,92
-316,Compression Wear Already,Sports Apparel,Compression Wear,133.33,271.75,29
-317,Energy Drinks Toward,Healthy Snacks,Energy Drinks,50.34,72.37,9
-318,Treadmills Best,Fitness Equipment,Treadmills,30.49,26.68,26
-319,Trail Mix Baby,Healthy Snacks,Trail Mix,103.77,68.45,17
-320,Protein Bars Small,Healthy Snacks,Protein Bars,80.97,170.91,49
-321,Resistance Bands No,Fitness Equipment,Resistance Bands,63.6,111.21,92
-322,Protein Bars Lose,Healthy Snacks,Protein Bars,14.89,88.45,4
-323,Dumbbells Base,Fitness Equipment,Dumbbells,141.54,229.93,82
-324,Energy Drinks Every,Healthy Snacks,Energy Drinks,15.8,36.7,33
-325,Dried Fruits Dark,Healthy Snacks,Dried Fruits,123.18,68.68,73
-326,Protein Bars Side,Healthy Snacks,Protein Bars,115.78,120.25,20
-327,Protein Bars Among,Healthy Snacks,Protein Bars,23.26,276.95,41
-328,Exercise Bikes Various,Fitness Equipment,Exercise Bikes,131.44,218.7,76
-329,Energy Drinks Soldier,Healthy Snacks,Energy Drinks,9.52,212.61,33
-330,Yoga Mats Both,Fitness Equipment,Yoga Mats,24.2,42.77,1
-331,Workout Leggings Safe,Sports Apparel,Workout Leggings,96.37,153.47,47
-332,Sports Jerseys Sometimes,Sports Apparel,Sports Jerseys,46.69,297.86,21
-333,Resistance Bands Bad,Fitness Equipment,Resistance Bands,97.15,290.46,27
-334,Organic Snacks Party,Healthy Snacks,Organic Snacks,11.98,203.51,25
-335,Treadmills Create,Fitness Equipment,Treadmills,135.03,65.26,93
-336,Running Shoes Republican,Sports Apparel,Running Shoes,88.71,131.9,98
-337,Exercise Bikes Your,Fitness Equipment,Exercise Bikes,43.22,214.76,44
-338,Sports Jerseys Amount,Sports Apparel,Sports Jerseys,53.98,107.78,14
-339,Dumbbells Trade,Fitness Equipment,Dumbbells,58.61,166.29,26
-340,Trail Mix Able,Healthy Snacks,Trail Mix,41.35,84.62,34
-341,Organic Snacks Page,Healthy Snacks,Organic Snacks,31.73,299.7,5
-342,Sports Jerseys There,Sports Apparel,Sports Jerseys,17.31,150.8,16
-343,Compression Wear Little,Sports Apparel,Compression Wear,86.13,195.12,77
-344,Yoga Mats Nor,Fitness Equipment,Yoga Mats,5.68,167.52,54
-345,Sports Jerseys Author,Sports Apparel,Sports Jerseys,74.6,70.52,39
-346,Organic Snacks Now,Healthy Snacks,Organic Snacks,80.45,206.61,15
-347,Dried Fruits Happy,Healthy Snacks,Dried Fruits,110.25,112.79,82
-348,Organic Snacks Why,Healthy Snacks,Organic Snacks,52.27,248.73,36
-349,Compression Wear Treatment,Sports Apparel,Compression Wear,115.28,144.17,70
-350,Treadmills Number,Fitness Equipment,Treadmills,22.51,118.94,72
-351,Protein Bars Land,Healthy Snacks,Protein Bars,133.61,225.15,30
-352,Organic Snacks Pretty,Healthy Snacks,Organic Snacks,127.26,115.17,27
-353,Running Shoes While,Sports Apparel,Running Shoes,44.05,256.97,63
-354,Trail Mix Book,Healthy Snacks,Trail Mix,21.14,181.99,83
-355,Dried Fruits Pass,Healthy Snacks,Dried Fruits,49.68,177.16,2
-356,Yoga Mats Enjoy,Fitness Equipment,Yoga Mats,6.69,231.56,41
-357,Organic Snacks Picture,Healthy Snacks,Organic Snacks,131.73,298.75,42
-358,Dried Fruits Today,Healthy Snacks,Dried Fruits,36.36,199.16,45
-359,Resistance Bands First,Fitness Equipment,Resistance Bands,5.86,271.64,97
-360,Sports Bras Recognize,Sports Apparel,Sports Bras,122.1,291.3,89
-361,Trail Mix Tax,Healthy Snacks,Trail Mix,147.41,195.39,24
-362,Yoga Mats Improve,Fitness Equipment,Yoga Mats,138.46,59.97,8
-363,Exercise Bikes Foot,Fitness Equipment,Exercise Bikes,120.78,273.19,33
-364,Protein Bars Nation,Healthy Snacks,Protein Bars,77.02,87.89,27
-365,Sports Bras Within,Sports Apparel,Sports Bras,25.8,62.1,70
-366,Exercise Bikes Opportunity,Fitness Equipment,Exercise Bikes,100.13,138.73,4
-367,Yoga Mats Likely,Fitness Equipment,Yoga Mats,98.29,206.28,25
-368,Yoga Mats Add,Fitness Equipment,Yoga Mats,53.34,177.87,16
-369,Protein Bars Show,Healthy Snacks,Protein Bars,106.08,186.8,24
-370,Workout Leggings Cost,Sports Apparel,Workout Leggings,41.94,71.97,3
-371,Energy Drinks Land,Healthy Snacks,Energy Drinks,125.59,66.87,6
-372,Dried Fruits Rate,Healthy Snacks,Dried Fruits,33.83,167.97,64
-373,Yoga Mats Lose,Fitness Equipment,Yoga Mats,93.17,224.8,75
-374,Protein Bars Do,Healthy Snacks,Protein Bars,105.8,232.85,88
-375,Trail Mix Save,Healthy Snacks,Trail Mix,92.45,84.7,57
-376,Workout Leggings Candidate,Sports Apparel,Workout Leggings,124.38,269.68,87
-377,Yoga Mats Evidence,Fitness Equipment,Yoga Mats,79.28,207.38,96
-378,Workout Leggings Town,Sports Apparel,Workout Leggings,26.29,39.15,27
-379,Yoga Mats Need,Fitness Equipment,Yoga Mats,29.49,131.31,68
-380,Resistance Bands Daughter,Fitness Equipment,Resistance Bands,36.46,255.17,11
-381,Workout Leggings Against,Sports Apparel,Workout Leggings,40.66,176.52,42
-382,Sports Bras Theory,Sports Apparel,Sports Bras,54.87,69.59,59
-383,Compression Wear Party,Sports Apparel,Compression Wear,137.65,181.14,54
-384,Dried Fruits Simply,Healthy Snacks,Dried Fruits,98.4,106.78,68
-385,Sports Bras Audience,Sports Apparel,Sports Bras,21.29,240.72,39
-386,Organic Snacks Really,Healthy Snacks,Organic Snacks,90.36,213.61,31
-387,Sports Jerseys Over,Sports Apparel,Sports Jerseys,49.63,134.19,12
-388,Energy Drinks Eye,Healthy Snacks,Energy Drinks,50.78,216.02,34
-389,Resistance Bands Short,Fitness Equipment,Resistance Bands,62.42,96.52,63
-390,Trail Mix Interview,Healthy Snacks,Trail Mix,15.85,255.19,69
-391,Compression Wear Natural,Sports Apparel,Compression Wear,124.26,124.86,72
-392,Yoga Mats Partner,Fitness Equipment,Yoga Mats,74.62,59.49,53
-393,Yoga Mats Born,Fitness Equipment,Yoga Mats,94.29,148.1,87
-394,Organic Snacks Other,Healthy Snacks,Organic Snacks,139.06,228.61,73
-395,Running Shoes Street,Sports Apparel,Running Shoes,100.5,149.89,41
-396,Compression Wear Always,Sports Apparel,Compression Wear,69.76,152.16,62
-397,Organic Snacks Voice,Healthy Snacks,Organic Snacks,81.07,124.1,12
-398,Sports Bras Rather,Sports Apparel,Sports Bras,53.2,175.08,48
-399,Sports Bras And,Sports Apparel,Sports Bras,41.22,104.65,30
-400,Sports Bras Start,Sports Apparel,Sports Bras,116.02,228.91,57
-401,Resistance Bands Street,Fitness Equipment,Resistance Bands,13.85,193.05,3
-402,Yoga Mats Whom,Fitness Equipment,Yoga Mats,96.49,56.1,46
-403,Sports Bras Share,Sports Apparel,Sports Bras,53.71,142.75,65
-404,Dried Fruits Beat,Healthy Snacks,Dried Fruits,14.5,192.59,64
-405,Exercise Bikes Go,Fitness Equipment,Exercise Bikes,20.89,123.44,58
-406,Dumbbells Nor,Fitness Equipment,Dumbbells,58.34,273.41,65
-407,Workout Leggings Develop,Sports Apparel,Workout Leggings,36.52,118.65,92
-408,Trail Mix Cause,Healthy Snacks,Trail Mix,96.44,86.06,99
-409,Dumbbells Support,Fitness Equipment,Dumbbells,48.08,121.25,62
-410,Yoga Mats Computer,Fitness Equipment,Yoga Mats,87.3,243.72,85
-411,Yoga Mats Theory,Fitness Equipment,Yoga Mats,71.2,72.46,11
-412,Dried Fruits Three,Healthy Snacks,Dried Fruits,25.06,280.91,32
-413,Sports Jerseys Agent,Sports Apparel,Sports Jerseys,136.81,90.52,80
-414,Resistance Bands War,Fitness Equipment,Resistance Bands,98.09,186.56,90
-415,Dumbbells Design,Fitness Equipment,Dumbbells,111.11,92.82,31
-416,Trail Mix International,Healthy Snacks,Trail Mix,120.03,67.71,4
-417,Resistance Bands Organization,Fitness Equipment,Resistance Bands,28.86,244.66,25
-418,Treadmills Child,Fitness Equipment,Treadmills,142.61,299.97,67
-419,Sports Jerseys Yeah,Sports Apparel,Sports Jerseys,137.73,117.04,54
-420,Treadmills Sell,Fitness Equipment,Treadmills,88.45,119.59,81
-421,Workout Leggings Light,Sports Apparel,Workout Leggings,109.02,215.06,55
-422,Protein Bars Woman,Healthy Snacks,Protein Bars,143.97,75.12,35
-423,Workout Leggings Eight,Sports Apparel,Workout Leggings,12.85,232.03,31
-424,Dumbbells Begin,Fitness Equipment,Dumbbells,15.31,136.47,81
-425,Sports Jerseys Yourself,Sports Apparel,Sports Jerseys,87.67,287.42,56
-426,Dried Fruits Where,Healthy Snacks,Dried Fruits,132.24,67.99,64
-427,Dumbbells Statement,Fitness Equipment,Dumbbells,25.33,53.25,73
-428,Workout Leggings Source,Sports Apparel,Workout Leggings,106.25,278.36,79
-429,Organic Snacks May,Healthy Snacks,Organic Snacks,19.18,188.13,41
-430,Sports Bras Challenge,Sports Apparel,Sports Bras,137.87,70.34,16
-431,Sports Jerseys Mrs,Sports Apparel,Sports Jerseys,104.88,147.42,79
-432,Running Shoes Up,Sports Apparel,Running Shoes,8.91,174.15,87
-433,Exercise Bikes Describe,Fitness Equipment,Exercise Bikes,41.52,153.75,2
-434,Dried Fruits Lead,Healthy Snacks,Dried Fruits,13.03,277.14,59
-435,Treadmills Miss,Fitness Equipment,Treadmills,65.3,168.19,64
-436,Workout Leggings His,Sports Apparel,Workout Leggings,30.05,168.21,45
-437,Sports Bras Program,Sports Apparel,Sports Bras,25.76,58.59,46
-438,Workout Leggings Successful,Sports Apparel,Workout Leggings,7.89,276.01,58
-439,Organic Snacks Simple,Healthy Snacks,Organic Snacks,120.99,37.18,49
-440,Energy Drinks Hospital,Healthy Snacks,Energy Drinks,120.79,24.41,77
-441,Running Shoes Ask,Sports Apparel,Running Shoes,81.67,231.46,56
-442,Trail Mix Own,Healthy Snacks,Trail Mix,21.13,215.04,17
-443,Workout Leggings Floor,Sports Apparel,Workout Leggings,136.25,299.43,38
-444,Trail Mix Red,Healthy Snacks,Trail Mix,102.64,194.18,5
-445,Compression Wear Though,Sports Apparel,Compression Wear,142.92,278.08,39
-446,Dumbbells Thank,Fitness Equipment,Dumbbells,116.19,99.21,11
-447,Sports Bras Call,Sports Apparel,Sports Bras,26.98,138.71,43
-448,Yoga Mats Buy,Fitness Equipment,Yoga Mats,36.04,174.83,63
-449,Sports Bras Big,Sports Apparel,Sports Bras,89.49,155.34,73
-450,Exercise Bikes Magazine,Fitness Equipment,Exercise Bikes,116.12,264.43,68
-451,Sports Jerseys Although,Sports Apparel,Sports Jerseys,72.47,149.97,58
-452,Protein Bars Suddenly,Healthy Snacks,Protein Bars,103.08,82.11,54
-453,Dumbbells Owner,Fitness Equipment,Dumbbells,24.95,219.47,88
-454,Dumbbells Natural,Fitness Equipment,Dumbbells,23.59,67.12,95
-455,Compression Wear Somebody,Sports Apparel,Compression Wear,99.15,131.15,33
-456,Dried Fruits Process,Healthy Snacks,Dried Fruits,107.76,163.66,60
-457,Organic Snacks There,Healthy Snacks,Organic Snacks,21.54,29.99,27
-458,Dumbbells Style,Fitness Equipment,Dumbbells,14.66,270.97,10
-459,Energy Drinks Yourself,Healthy Snacks,Energy Drinks,94.99,101.92,62
-460,Exercise Bikes Woman,Fitness Equipment,Exercise Bikes,118.12,103.86,47
-461,Dumbbells Eat,Fitness Equipment,Dumbbells,58.85,142.98,15
-462,Protein Bars Rule,Healthy Snacks,Protein Bars,114.14,146.43,1
-463,Dried Fruits Husband,Healthy Snacks,Dried Fruits,19.64,241.9,24
-464,Trail Mix Speak,Healthy Snacks,Trail Mix,118.54,19.69,76
-465,Sports Jerseys Box,Sports Apparel,Sports Jerseys,143.11,66.61,91
-466,Sports Bras Child,Sports Apparel,Sports Bras,134.72,86.79,93
-467,Organic Snacks Management,Healthy Snacks,Organic Snacks,29.02,124.39,7
-468,Treadmills Mind,Fitness Equipment,Treadmills,52.8,232.48,67
-469,Treadmills Threat,Fitness Equipment,Treadmills,68.09,147.13,34
-470,Protein Bars Lead,Healthy Snacks,Protein Bars,68.28,18.08,98
-471,Treadmills Morning,Fitness Equipment,Treadmills,137.55,87.75,7
-472,Exercise Bikes War,Fitness Equipment,Exercise Bikes,82.41,186.21,54
-473,Sports Bras Inside,Sports Apparel,Sports Bras,44.96,16.33,47
-474,Resistance Bands Land,Fitness Equipment,Resistance Bands,81.12,214.56,97
-475,Trail Mix Argue,Healthy Snacks,Trail Mix,76.08,125.72,95
-476,Dried Fruits Fall,Healthy Snacks,Dried Fruits,68.99,198.17,18
-477,Organic Snacks Produce,Healthy Snacks,Organic Snacks,69.03,144.27,3
-478,Sports Jerseys Idea,Sports Apparel,Sports Jerseys,107.62,68.52,78
-479,Dumbbells Six,Fitness Equipment,Dumbbells,87.25,281.47,57
-480,Yoga Mats Administration,Fitness Equipment,Yoga Mats,136.07,24.9,16
-481,Resistance Bands Since,Fitness Equipment,Resistance Bands,83.51,127.84,59
-482,Energy Drinks Six,Healthy Snacks,Energy Drinks,55.72,264.87,38
-483,Exercise Bikes Stop,Fitness Equipment,Exercise Bikes,47.01,45.67,34
-484,Treadmills Where,Fitness Equipment,Treadmills,130.5,73.45,35
-485,Organic Snacks Management,Healthy Snacks,Organic Snacks,86.66,59.92,52
-486,Organic Snacks Film,Healthy Snacks,Organic Snacks,67.79,267.57,62
-487,Dried Fruits Look,Healthy Snacks,Dried Fruits,44.23,30.05,62
-488,Resistance Bands Economy,Fitness Equipment,Resistance Bands,116.89,254.8,45
-489,Exercise Bikes Ask,Fitness Equipment,Exercise Bikes,73.92,108.25,13
-490,Trail Mix Party,Healthy Snacks,Trail Mix,140.88,151.52,28
-491,Dumbbells News,Fitness Equipment,Dumbbells,50.7,257.35,24
-492,Organic Snacks Hot,Healthy Snacks,Organic Snacks,123.17,259.21,64
-493,Exercise Bikes Yard,Fitness Equipment,Exercise Bikes,131.17,131.32,51
-494,Resistance Bands Economic,Fitness Equipment,Resistance Bands,127.51,52.21,5
-495,Dried Fruits Happy,Healthy Snacks,Dried Fruits,88.77,27.43,61
-496,Exercise Bikes Fund,Fitness Equipment,Exercise Bikes,147.12,275.58,50
-497,Trail Mix Let,Healthy Snacks,Trail Mix,46.15,193.08,72
-498,Trail Mix Least,Healthy Snacks,Trail Mix,54.57,161.17,4
-499,Dried Fruits Concern,Healthy Snacks,Dried Fruits,57.89,75.89,23
-500,Protein Bars Not,Healthy Snacks,Protein Bars,105.13,188.24,84
+1,Workout Leggings Effort,Sports Apparel,Workout Leggings,56.32,88.42,93
+2,Dried Fruits As,Healthy Snacks,Dried Fruits,146.43,212.32,78
+3,Dumbbells Article,Fitness Equipment,Dumbbells,63.62,89.07,2
+4,Treadmills Choose,Fitness Equipment,Treadmills,83.15,179.60,31
+5,Resistance Bands Which,Fitness Equipment,Resistance Bands,128.72,256.15,47
+6,Treadmills Base,Fitness Equipment,Treadmills,109.21,221.70,67
+7,Sports Jerseys Recent,Sports Apparel,Sports Jerseys,97.23,204.18,12
+8,Exercise Bikes Hope,Fitness Equipment,Exercise Bikes,149.95,326.89,23
+9,Workout Leggings Whom,Sports Apparel,Workout Leggings,98.26,158.20,72
+10,Resistance Bands If,Fitness Equipment,Resistance Bands,59.94,108.49,49
+11,Sports Jerseys Matter,Sports Apparel,Sports Jerseys,79.73,128.37,85
+12,Compression Wear Pay,Sports Apparel,Compression Wear,83.84,171.87,66
+13,Running Shoes Serve,Sports Apparel,Running Shoes,19.53,27.15,90
+14,Resistance Bands Allow,Fitness Equipment,Resistance Bands,63.39,100.79,13
+15,Energy Drinks Contain,Healthy Snacks,Energy Drinks,66.35,125.40,14
+16,Trail Mix Short,Healthy Snacks,Trail Mix,72.92,96.98,82
+17,Resistance Bands Statement,Fitness Equipment,Resistance Bands,55.83,99.38,50
+18,Treadmills Head,Fitness Equipment,Treadmills,132.55,172.32,88
+19,Exercise Bikes Individual,Fitness Equipment,Exercise Bikes,84.37,161.99,100
+20,Protein Bars Field,Healthy Snacks,Protein Bars,54.49,94.27,45
+21,Sports Jerseys Theory,Sports Apparel,Sports Jerseys,120.81,160.68,93
+22,Sports Bras Purpose,Sports Apparel,Sports Bras,86.13,180.87,22
+23,Dried Fruits This,Healthy Snacks,Dried Fruits,146.91,249.75,34
+24,Organic Snacks Describe,Healthy Snacks,Organic Snacks,103.91,217.17,4
+25,Energy Drinks Eat,Healthy Snacks,Energy Drinks,48.02,78.75,38
+26,Dumbbells West,Fitness Equipment,Dumbbells,17.15,34.81,51
+27,Workout Leggings Forget,Sports Apparel,Workout Leggings,90.83,166.22,17
+28,Dumbbells Network,Fitness Equipment,Dumbbells,123.19,193.41,47
+29,Running Shoes Soon,Sports Apparel,Running Shoes,87.96,164.49,72
+30,Energy Drinks Magazine,Healthy Snacks,Energy Drinks,93.50,194.48,96
+31,Protein Bars American,Healthy Snacks,Protein Bars,54.44,106.70,10
+32,Energy Drinks Catch,Healthy Snacks,Energy Drinks,149.15,247.59,45
+33,Exercise Bikes Against,Fitness Equipment,Exercise Bikes,77.95,160.58,41
+34,Sports Bras Necessary,Sports Apparel,Sports Bras,147.47,327.38,30
+35,Dried Fruits Across,Healthy Snacks,Dried Fruits,28.35,43.66,58
+36,Organic Snacks Best,Healthy Snacks,Organic Snacks,77.38,116.84,49
+37,Sports Jerseys Fear,Sports Apparel,Sports Jerseys,45.39,88.06,35
+38,Trail Mix Hour,Healthy Snacks,Trail Mix,50.60,100.69,3
+39,Sports Bras Fire,Sports Apparel,Sports Bras,76.43,146.75,46
+40,Organic Snacks Contain,Healthy Snacks,Organic Snacks,117.30,182.99,44
+41,Dumbbells Pattern,Fitness Equipment,Dumbbells,46.19,67.44,14
+42,Treadmills Beyond,Fitness Equipment,Treadmills,41.22,89.86,80
+43,Treadmills These,Fitness Equipment,Treadmills,146.43,194.75,70
+44,Workout Leggings Common,Sports Apparel,Workout Leggings,89.86,177.02,71
+45,Protein Bars Appear,Healthy Snacks,Protein Bars,15.98,30.52,60
+46,Yoga Mats Ok,Fitness Equipment,Yoga Mats,79.75,181.03,92
+47,Organic Snacks Every,Healthy Snacks,Organic Snacks,30.54,59.86,67
+48,Sports Bras Could,Sports Apparel,Sports Bras,136.63,219.97,87
+49,Exercise Bikes Old,Fitness Equipment,Exercise Bikes,20.05,37.09,38
+50,Yoga Mats Between,Fitness Equipment,Yoga Mats,115.74,189.81,90
+51,Organic Snacks Friend,Healthy Snacks,Organic Snacks,49.95,98.40,44
+52,Treadmills Take,Fitness Equipment,Treadmills,142.49,319.18,43
+53,Treadmills Team,Fitness Equipment,Treadmills,107.11,147.81,49
+54,Treadmills Including,Fitness Equipment,Treadmills,55.16,118.04,73
+55,Treadmills Around,Fitness Equipment,Treadmills,144.75,318.45,29
+56,Workout Leggings Possible,Sports Apparel,Workout Leggings,102.34,186.26,12
+57,Energy Drinks With,Healthy Snacks,Energy Drinks,142.53,295.04,38
+58,Organic Snacks Military,Healthy Snacks,Organic Snacks,132.63,188.33,13
+59,Dried Fruits Field,Healthy Snacks,Dried Fruits,99.07,213.99,7
+60,Yoga Mats Also,Fitness Equipment,Yoga Mats,30.53,42.44,70
+61,Dried Fruits Series,Healthy Snacks,Dried Fruits,25.51,52.04,7
+62,Resistance Bands Sign,Fitness Equipment,Resistance Bands,88.69,184.48,95
+63,Resistance Bands Something,Fitness Equipment,Resistance Bands,35.36,49.86,44
+64,Organic Snacks Interview,Healthy Snacks,Organic Snacks,52.04,78.06,5
+65,Organic Snacks Name,Healthy Snacks,Organic Snacks,33.57,71.50,74
+66,Treadmills Democrat,Fitness Equipment,Treadmills,95.67,202.82,9
+67,Trail Mix Relate,Healthy Snacks,Trail Mix,132.39,304.50,67
+68,Workout Leggings Senior,Sports Apparel,Workout Leggings,88.39,182.08,58
+69,Dumbbells Little,Fitness Equipment,Dumbbells,146.27,274.99,56
+70,Dumbbells Total,Fitness Equipment,Dumbbells,146.62,293.24,46
+71,Trail Mix Table,Healthy Snacks,Trail Mix,121.84,268.05,95
+72,Compression Wear Accept,Sports Apparel,Compression Wear,47.26,85.07,39
+73,Yoga Mats Score,Fitness Equipment,Yoga Mats,111.71,234.59,72
+74,Exercise Bikes Explain,Fitness Equipment,Exercise Bikes,45.08,71.68,50
+75,Treadmills Provide,Fitness Equipment,Treadmills,117.01,239.87,64
+76,Yoga Mats Off,Fitness Equipment,Yoga Mats,76.85,139.10,56
+77,Resistance Bands By,Fitness Equipment,Resistance Bands,85.38,112.70,32
+78,Workout Leggings Anyone,Sports Apparel,Workout Leggings,26.40,40.13,16
+79,Organic Snacks Role,Healthy Snacks,Organic Snacks,139.49,277.59,13
+80,Exercise Bikes School,Fitness Equipment,Exercise Bikes,49.52,71.31,64
+81,Sports Jerseys Recently,Sports Apparel,Sports Jerseys,93.98,185.14,77
+82,Dumbbells Newspaper,Fitness Equipment,Dumbbells,147.24,291.54,56
+83,Dried Fruits Suddenly,Healthy Snacks,Dried Fruits,142.48,284.96,69
+84,Energy Drinks Baby,Healthy Snacks,Energy Drinks,115.40,196.18,60
+85,Exercise Bikes Reduce,Fitness Equipment,Exercise Bikes,98.45,129.95,64
+86,Compression Wear Star,Sports Apparel,Compression Wear,125.36,246.96,13
+87,Dried Fruits Spend,Healthy Snacks,Dried Fruits,124.43,274.99,49
+88,Workout Leggings Animal,Sports Apparel,Workout Leggings,148.32,307.02,99
+89,Trail Mix Choice,Healthy Snacks,Trail Mix,63.40,124.90,1
+90,Sports Jerseys Dinner,Sports Apparel,Sports Jerseys,125.41,244.55,47
+91,Organic Snacks Not,Healthy Snacks,Organic Snacks,60.96,106.07,78
+92,Running Shoes Easy,Sports Apparel,Running Shoes,101.28,183.32,98
+93,Treadmills Necessary,Fitness Equipment,Treadmills,135.11,204.02,2
+94,Exercise Bikes Yet,Fitness Equipment,Exercise Bikes,39.41,83.55,32
+95,Running Shoes Hundred,Sports Apparel,Running Shoes,75.34,161.98,81
+96,Dumbbells Idea,Fitness Equipment,Dumbbells,130.83,286.52,98
+97,Trail Mix Central,Healthy Snacks,Trail Mix,106.52,168.30,35
+98,Dumbbells Put,Fitness Equipment,Dumbbells,35.68,62.44,90
+99,Energy Drinks Boy,Healthy Snacks,Energy Drinks,27.94,50.57,6
+100,Treadmills Citizen,Fitness Equipment,Treadmills,19.96,30.34,14
+101,Yoga Mats Manager,Fitness Equipment,Yoga Mats,100.95,172.62,76
+102,Workout Leggings Main,Sports Apparel,Workout Leggings,141.17,251.28,96
+103,Sports Bras Majority,Sports Apparel,Sports Bras,19.30,25.28,21
+104,Energy Drinks End,Healthy Snacks,Energy Drinks,141.83,204.24,49
+105,Compression Wear Rock,Sports Apparel,Compression Wear,133.97,202.29,58
+106,Dried Fruits They,Healthy Snacks,Dried Fruits,31.89,48.47,71
+107,Dried Fruits Than,Healthy Snacks,Dried Fruits,89.78,127.49,73
+108,Resistance Bands Former,Fitness Equipment,Resistance Bands,106.42,200.07,24
+109,Sports Bras Common,Sports Apparel,Sports Bras,14.39,25.90,47
+110,Compression Wear Look,Sports Apparel,Compression Wear,39.46,57.61,45
+111,Treadmills Deal,Fitness Equipment,Treadmills,132.40,287.31,1
+112,Energy Drinks National,Healthy Snacks,Energy Drinks,36.78,73.56,8
+113,Resistance Bands Group,Fitness Equipment,Resistance Bands,91.99,210.66,17
+114,Resistance Bands Center,Fitness Equipment,Resistance Bands,96.64,175.88,95
+115,Sports Bras Paper,Sports Apparel,Sports Bras,19.09,39.90,52
+116,Protein Bars Try,Healthy Snacks,Protein Bars,46.97,67.17,79
+117,Yoga Mats Floor,Fitness Equipment,Yoga Mats,103.75,194.01,18
+118,Energy Drinks Base,Healthy Snacks,Energy Drinks,41.97,95.69,57
+119,Sports Bras Range,Sports Apparel,Sports Bras,62.65,125.93,98
+120,Yoga Mats Nor,Fitness Equipment,Yoga Mats,114.48,222.09,43
+121,Sports Jerseys Learn,Sports Apparel,Sports Jerseys,33.22,60.79,70
+122,Energy Drinks Fast,Healthy Snacks,Energy Drinks,38.79,77.19,45
+123,Energy Drinks Sea,Healthy Snacks,Energy Drinks,10.94,22.10,44
+124,Dumbbells Have,Fitness Equipment,Dumbbells,29.36,59.60,30
+125,Dumbbells Local,Fitness Equipment,Dumbbells,97.83,185.88,50
+126,Sports Jerseys Wish,Sports Apparel,Sports Jerseys,47.92,107.34,70
+127,Trail Mix Magazine,Healthy Snacks,Trail Mix,102.23,203.44,41
+128,Organic Snacks Read,Healthy Snacks,Organic Snacks,47.38,86.23,27
+129,Running Shoes Whole,Sports Apparel,Running Shoes,52.17,83.47,25
+130,Trail Mix Teacher,Healthy Snacks,Trail Mix,40.22,90.50,56
+131,Compression Wear Traditional,Sports Apparel,Compression Wear,14.11,26.81,44
+132,Exercise Bikes Strong,Fitness Equipment,Exercise Bikes,46.41,74.26,47
+133,Dumbbells Join,Fitness Equipment,Dumbbells,38.00,78.28,46
+134,Dried Fruits Health,Healthy Snacks,Dried Fruits,117.43,163.23,12
+135,Workout Leggings Kitchen,Sports Apparel,Workout Leggings,70.58,109.40,53
+136,Protein Bars Wish,Healthy Snacks,Protein Bars,113.49,177.04,81
+137,Protein Bars Fine,Healthy Snacks,Protein Bars,149.94,304.38,12
+138,Yoga Mats Behind,Fitness Equipment,Yoga Mats,76.06,142.99,4
+139,Exercise Bikes Month,Fitness Equipment,Exercise Bikes,105.21,153.61,16
+140,Dried Fruits Property,Healthy Snacks,Dried Fruits,107.47,149.38,24
+141,Sports Bras Peace,Sports Apparel,Sports Bras,83.58,117.85,100
+142,Running Shoes Sound,Sports Apparel,Running Shoes,46.88,97.04,9
+143,Sports Bras Debate,Sports Apparel,Sports Bras,113.81,160.47,52
+144,Compression Wear Reality,Sports Apparel,Compression Wear,64.07,110.20,16
+145,Protein Bars Operation,Healthy Snacks,Protein Bars,64.73,109.39,33
+146,Trail Mix Both,Healthy Snacks,Trail Mix,78.63,103.79,39
+147,Sports Jerseys Present,Sports Apparel,Sports Jerseys,46.93,100.90,10
+148,Workout Leggings Business,Sports Apparel,Workout Leggings,11.28,22.33,63
+149,Protein Bars Near,Healthy Snacks,Protein Bars,80.71,183.21,86
+150,Compression Wear On,Sports Apparel,Compression Wear,124.37,206.45,27
+151,Workout Leggings Try,Sports Apparel,Workout Leggings,68.89,124.69,29
+152,Energy Drinks These,Healthy Snacks,Energy Drinks,148.68,233.43,37
+153,Yoga Mats Of,Fitness Equipment,Yoga Mats,19.74,27.24,17
+154,Energy Drinks Soldier,Healthy Snacks,Energy Drinks,146.74,247.99,85
+155,Energy Drinks Bag,Healthy Snacks,Energy Drinks,65.23,141.55,3
+156,Energy Drinks Range,Healthy Snacks,Energy Drinks,128.99,217.99,86
+157,Sports Bras Little,Sports Apparel,Sports Bras,27.37,42.15,73
+158,Protein Bars Traditional,Healthy Snacks,Protein Bars,102.21,217.71,72
+159,Energy Drinks Middle,Healthy Snacks,Energy Drinks,120.94,262.44,4
+160,Workout Leggings Later,Sports Apparel,Workout Leggings,48.34,82.66,39
+161,Workout Leggings Mission,Sports Apparel,Workout Leggings,93.64,150.76,85
+162,Organic Snacks Green,Healthy Snacks,Organic Snacks,55.00,80.85,77
+163,Dried Fruits Card,Healthy Snacks,Dried Fruits,65.99,122.08,28
+164,Compression Wear Grow,Sports Apparel,Compression Wear,16.34,33.99,56
+165,Exercise Bikes Often,Fitness Equipment,Exercise Bikes,142.76,189.87,6
+166,Dumbbells Claim,Fitness Equipment,Dumbbells,47.27,66.18,100
+167,Sports Jerseys Without,Sports Apparel,Sports Jerseys,12.41,22.46,89
+168,Sports Jerseys Laugh,Sports Apparel,Sports Jerseys,42.81,59.51,92
+169,Resistance Bands Attack,Fitness Equipment,Resistance Bands,80.63,184.64,24
+170,Trail Mix Perform,Healthy Snacks,Trail Mix,124.86,269.70,100
+171,Energy Drinks Finally,Healthy Snacks,Energy Drinks,15.71,30.95,21
+172,Sports Jerseys Loss,Sports Apparel,Sports Jerseys,70.04,94.55,69
+173,Sports Bras Range,Sports Apparel,Sports Bras,67.41,128.08,13
+174,Resistance Bands Nation,Fitness Equipment,Resistance Bands,15.15,29.09,86
+175,Compression Wear His,Sports Apparel,Compression Wear,135.38,249.10,40
+176,Yoga Mats Others,Fitness Equipment,Yoga Mats,140.68,319.34,13
+177,Running Shoes Money,Sports Apparel,Running Shoes,137.19,246.94,84
+178,Compression Wear Chair,Sports Apparel,Compression Wear,60.91,91.37,15
+179,Dried Fruits Election,Healthy Snacks,Dried Fruits,31.59,60.65,36
+180,Yoga Mats Director,Fitness Equipment,Yoga Mats,100.21,191.40,86
+181,Resistance Bands Door,Fitness Equipment,Resistance Bands,42.62,78.42,78
+182,Compression Wear Traditional,Sports Apparel,Compression Wear,46.41,60.80,8
+183,Workout Leggings Big,Sports Apparel,Workout Leggings,122.06,211.16,82
+184,Yoga Mats Lose,Fitness Equipment,Yoga Mats,81.94,167.98,85
+185,Dried Fruits Magazine,Healthy Snacks,Dried Fruits,24.96,43.43,5
+186,Sports Bras Into,Sports Apparel,Sports Bras,83.07,137.07,21
+187,Dried Fruits Listen,Healthy Snacks,Dried Fruits,46.05,99.01,12
+188,Yoga Mats Alone,Fitness Equipment,Yoga Mats,104.26,150.13,42
+189,Organic Snacks Which,Healthy Snacks,Organic Snacks,105.67,238.81,30
+190,Treadmills Blue,Fitness Equipment,Treadmills,103.94,171.50,40
+191,Compression Wear Daughter,Sports Apparel,Compression Wear,25.53,58.72,80
+192,Treadmills Turn,Fitness Equipment,Treadmills,145.09,264.06,61
+193,Trail Mix Popular,Healthy Snacks,Trail Mix,123.18,264.84,75
+194,Yoga Mats Building,Fitness Equipment,Yoga Mats,42.13,90.58,47
+195,Compression Wear Imagine,Sports Apparel,Compression Wear,101.78,144.53,58
+196,Organic Snacks Them,Healthy Snacks,Organic Snacks,122.00,262.30,52
+197,Running Shoes Morning,Sports Apparel,Running Shoes,114.65,228.15,6
+198,Treadmills Card,Fitness Equipment,Treadmills,144.80,305.53,46
+199,Sports Bras Catch,Sports Apparel,Sports Bras,139.94,291.08,68
+200,Resistance Bands Front,Fitness Equipment,Resistance Bands,112.90,207.74,13
+201,Energy Drinks Interesting,Healthy Snacks,Energy Drinks,134.56,224.72,1
+202,Trail Mix Main,Healthy Snacks,Trail Mix,146.16,239.70,74
+203,Yoga Mats Clear,Fitness Equipment,Yoga Mats,85.97,153.03,69
+204,Compression Wear Manage,Sports Apparel,Compression Wear,10.72,16.40,24
+205,Yoga Mats Whose,Fitness Equipment,Yoga Mats,44.71,79.14,84
+206,Trail Mix Sure,Healthy Snacks,Trail Mix,143.91,205.79,41
+207,Trail Mix Pass,Healthy Snacks,Trail Mix,98.19,139.43,30
+208,Protein Bars Office,Healthy Snacks,Protein Bars,22.36,31.75,33
+209,Dumbbells Thing,Fitness Equipment,Dumbbells,114.97,232.24,99
+210,Energy Drinks Join,Healthy Snacks,Energy Drinks,127.16,247.96,44
+211,Treadmills Group,Fitness Equipment,Treadmills,20.13,44.89,42
+212,Organic Snacks Law,Healthy Snacks,Organic Snacks,29.73,38.65,40
+213,Trail Mix Here,Healthy Snacks,Trail Mix,68.21,128.23,25
+214,Trail Mix Mission,Healthy Snacks,Trail Mix,117.90,187.46,42
+215,Dumbbells Military,Fitness Equipment,Dumbbells,39.77,58.86,18
+216,Resistance Bands Despite,Fitness Equipment,Resistance Bands,57.64,93.95,10
+217,Compression Wear Four,Sports Apparel,Compression Wear,10.82,18.72,77
+218,Compression Wear Art,Sports Apparel,Compression Wear,31.70,42.16,76
+219,Treadmills Standard,Fitness Equipment,Treadmills,90.64,191.25,32
+220,Running Shoes News,Sports Apparel,Running Shoes,110.40,170.02,86
+221,Organic Snacks Customer,Healthy Snacks,Organic Snacks,77.52,148.06,54
+222,Workout Leggings Environmental,Sports Apparel,Workout Leggings,131.05,281.76,32
+223,Sports Bras Development,Sports Apparel,Sports Bras,130.10,187.34,63
+224,Trail Mix Mission,Healthy Snacks,Trail Mix,83.61,119.56,1
+225,Treadmills Girl,Fitness Equipment,Treadmills,133.63,207.13,41
+226,Dumbbells Home,Fitness Equipment,Dumbbells,46.19,101.62,90
+227,Compression Wear Else,Sports Apparel,Compression Wear,26.07,43.28,36
+228,Exercise Bikes Program,Fitness Equipment,Exercise Bikes,35.49,55.72,23
+229,Protein Bars More,Healthy Snacks,Protein Bars,11.77,22.60,59
+230,Workout Leggings Marriage,Sports Apparel,Workout Leggings,62.41,102.98,23
+231,Resistance Bands Away,Fitness Equipment,Resistance Bands,113.42,192.81,76
+232,Compression Wear So,Sports Apparel,Compression Wear,116.07,208.93,93
+233,Trail Mix Strategy,Healthy Snacks,Trail Mix,134.69,268.03,97
+234,Trail Mix Truth,Healthy Snacks,Trail Mix,23.17,30.58,13
+235,Dried Fruits Them,Healthy Snacks,Dried Fruits,136.48,274.32,28
+236,Dried Fruits No,Healthy Snacks,Dried Fruits,131.44,260.25,62
+237,Resistance Bands House,Fitness Equipment,Resistance Bands,74.91,172.29,70
+238,Protein Bars Evidence,Healthy Snacks,Protein Bars,47.84,71.76,34
+239,Yoga Mats Compare,Fitness Equipment,Yoga Mats,138.68,260.72,3
+240,Energy Drinks Common,Healthy Snacks,Energy Drinks,126.63,227.93,76
+241,Sports Jerseys Probably,Sports Apparel,Sports Jerseys,95.06,196.77,39
+242,Protein Bars Miss,Healthy Snacks,Protein Bars,128.19,201.26,62
+243,Exercise Bikes Occur,Fitness Equipment,Exercise Bikes,18.13,31.36,7
+244,Energy Drinks Alone,Healthy Snacks,Energy Drinks,119.07,209.56,91
+245,Workout Leggings Let,Sports Apparel,Workout Leggings,8.22,18.25,57
+246,Energy Drinks Cup,Healthy Snacks,Energy Drinks,17.11,38.16,19
+247,Trail Mix Begin,Healthy Snacks,Trail Mix,93.70,209.89,65
+248,Sports Bras Story,Sports Apparel,Sports Bras,120.67,189.45,8
+249,Dumbbells Along,Fitness Equipment,Dumbbells,55.93,92.84,100
+250,Workout Leggings Song,Sports Apparel,Workout Leggings,137.57,279.27,9
+251,Sports Jerseys Attack,Sports Apparel,Sports Jerseys,22.30,45.72,97
+252,Running Shoes Owner,Sports Apparel,Running Shoes,93.96,147.52,59
+253,Sports Bras Hotel,Sports Apparel,Sports Bras,142.39,234.94,52
+254,Energy Drinks Onto,Healthy Snacks,Energy Drinks,149.66,296.33,99
+255,Compression Wear Amount,Sports Apparel,Compression Wear,87.20,198.82,70
+256,Dumbbells Garden,Fitness Equipment,Dumbbells,66.26,128.54,2
+257,Running Shoes Attention,Sports Apparel,Running Shoes,32.78,46.22,14
+258,Sports Bras Past,Sports Apparel,Sports Bras,29.24,51.46,91
+259,Compression Wear Treatment,Sports Apparel,Compression Wear,30.17,40.73,55
+260,Yoga Mats Perform,Fitness Equipment,Yoga Mats,58.79,96.42,95
+261,Dried Fruits Response,Healthy Snacks,Dried Fruits,8.88,13.50,84
+262,Treadmills Note,Fitness Equipment,Treadmills,51.45,74.60,23
+263,Yoga Mats Teach,Fitness Equipment,Yoga Mats,137.78,294.85,50
+264,Dumbbells Everybody,Fitness Equipment,Dumbbells,90.14,154.14,62
+265,Resistance Bands Friend,Fitness Equipment,Resistance Bands,35.19,65.10,87
+266,Organic Snacks Certain,Healthy Snacks,Organic Snacks,98.74,209.33,62
+267,Compression Wear During,Sports Apparel,Compression Wear,88.35,136.94,1
+268,Dried Fruits Relate,Healthy Snacks,Dried Fruits,122.23,267.68,8
+269,Dumbbells Respond,Fitness Equipment,Dumbbells,61.34,131.27,64
+270,Energy Drinks Realize,Healthy Snacks,Energy Drinks,47.64,95.28,59
+271,Dumbbells Save,Fitness Equipment,Dumbbells,96.87,202.46,86
+272,Exercise Bikes Teach,Fitness Equipment,Exercise Bikes,10.92,24.68,69
+273,Workout Leggings Address,Sports Apparel,Workout Leggings,82.66,108.28,26
+274,Trail Mix Back,Healthy Snacks,Trail Mix,98.39,208.59,99
+275,Dumbbells Budget,Fitness Equipment,Dumbbells,96.25,181.91,36
+276,Sports Bras Leg,Sports Apparel,Sports Bras,107.45,231.02,20
+277,Workout Leggings Recent,Sports Apparel,Workout Leggings,52.90,88.34,24
+278,Resistance Bands Pass,Fitness Equipment,Resistance Bands,99.73,168.54,27
+279,Sports Jerseys Home,Sports Apparel,Sports Jerseys,146.40,212.28,52
+280,Sports Jerseys Past,Sports Apparel,Sports Jerseys,76.96,156.23,20
+281,Energy Drinks Organization,Healthy Snacks,Energy Drinks,91.25,134.14,79
+282,Sports Bras Training,Sports Apparel,Sports Bras,121.41,252.53,35
+283,Trail Mix Physical,Healthy Snacks,Trail Mix,17.88,24.85,67
+284,Organic Snacks New,Healthy Snacks,Organic Snacks,80.37,118.14,91
+285,Resistance Bands Federal,Fitness Equipment,Resistance Bands,53.81,112.46,51
+286,Dried Fruits Rule,Healthy Snacks,Dried Fruits,64.85,118.68,58
+287,Dried Fruits Already,Healthy Snacks,Dried Fruits,26.87,35.20,94
+288,Dumbbells Now,Fitness Equipment,Dumbbells,44.58,100.75,100
+289,Compression Wear Trade,Sports Apparel,Compression Wear,44.94,97.07,91
+290,Yoga Mats Republican,Fitness Equipment,Yoga Mats,87.97,146.91,59
+291,Trail Mix Study,Healthy Snacks,Trail Mix,138.84,312.39,99
+292,Workout Leggings Official,Sports Apparel,Workout Leggings,41.19,89.79,42
+293,Running Shoes Threat,Sports Apparel,Running Shoes,49.96,68.45,30
+294,Dried Fruits Recent,Healthy Snacks,Dried Fruits,82.67,180.22,79
+295,Running Shoes Open,Sports Apparel,Running Shoes,92.04,143.58,20
+296,Resistance Bands Base,Fitness Equipment,Resistance Bands,76.19,169.90,83
+297,Organic Snacks Concern,Healthy Snacks,Organic Snacks,110.87,230.61,70
+298,Dumbbells Cover,Fitness Equipment,Dumbbells,78.33,177.81,33
+299,Yoga Mats Color,Fitness Equipment,Yoga Mats,10.78,14.12,7
+300,Running Shoes Administration,Sports Apparel,Running Shoes,138.89,250.00,19
+301,Running Shoes Interview,Sports Apparel,Running Shoes,86.09,120.53,84
+302,Protein Bars Analysis,Healthy Snacks,Protein Bars,91.19,140.43,88
+303,Sports Bras Pay,Sports Apparel,Sports Bras,59.04,123.39,81
+304,Protein Bars Focus,Healthy Snacks,Protein Bars,142.31,323.04,29
+305,Dried Fruits Pressure,Healthy Snacks,Dried Fruits,22.29,39.23,91
+306,Trail Mix Color,Healthy Snacks,Trail Mix,86.55,169.64,87
+307,Resistance Bands Recognize,Fitness Equipment,Resistance Bands,18.63,33.35,31
+308,Yoga Mats Describe,Fitness Equipment,Yoga Mats,133.67,268.68,23
+309,Workout Leggings Organization,Sports Apparel,Workout Leggings,104.29,139.75,59
+310,Workout Leggings Exist,Sports Apparel,Workout Leggings,138.21,276.42,48
+311,Exercise Bikes Same,Fitness Equipment,Exercise Bikes,47.66,80.55,5
+312,Sports Bras Impact,Sports Apparel,Sports Bras,74.41,113.85,77
+313,Protein Bars Despite,Healthy Snacks,Protein Bars,62.12,83.24,81
+314,Trail Mix Employee,Healthy Snacks,Trail Mix,105.40,146.51,28
+315,Trail Mix Ball,Healthy Snacks,Trail Mix,96.41,219.81,92
+316,Compression Wear Already,Sports Apparel,Compression Wear,133.33,249.33,29
+317,Energy Drinks Toward,Healthy Snacks,Energy Drinks,50.34,102.69,9
+318,Treadmills Best,Fitness Equipment,Treadmills,30.49,51.22,26
+319,Trail Mix Baby,Healthy Snacks,Trail Mix,103.77,223.11,17
+320,Protein Bars Small,Healthy Snacks,Protein Bars,80.97,141.70,49
+321,Resistance Bands No,Fitness Equipment,Resistance Bands,63.60,145.01,92
+322,Protein Bars Lose,Healthy Snacks,Protein Bars,14.89,29.18,4
+323,Dumbbells Base,Fitness Equipment,Dumbbells,141.54,291.57,82
+324,Energy Drinks Every,Healthy Snacks,Energy Drinks,15.80,35.71,33
+325,Dried Fruits Dark,Healthy Snacks,Dried Fruits,123.18,263.61,73
+326,Protein Bars Side,Healthy Snacks,Protein Bars,115.78,163.25,20
+327,Protein Bars Among,Healthy Snacks,Protein Bars,23.26,45.59,41
+328,Exercise Bikes Various,Fitness Equipment,Exercise Bikes,131.44,235.28,76
+329,Energy Drinks Soldier,Healthy Snacks,Energy Drinks,9.52,16.28,33
+330,Yoga Mats Both,Fitness Equipment,Yoga Mats,24.20,34.36,1
+331,Workout Leggings Safe,Sports Apparel,Workout Leggings,96.37,160.94,47
+332,Sports Jerseys Sometimes,Sports Apparel,Sports Jerseys,46.69,63.50,21
+333,Resistance Bands Bad,Fitness Equipment,Resistance Bands,97.15,131.15,27
+334,Organic Snacks Party,Healthy Snacks,Organic Snacks,11.98,18.21,25
+335,Treadmills Create,Fitness Equipment,Treadmills,135.03,241.70,93
+336,Running Shoes Republican,Sports Apparel,Running Shoes,88.71,196.05,98
+337,Exercise Bikes Your,Fitness Equipment,Exercise Bikes,43.22,75.64,44
+338,Sports Jerseys Amount,Sports Apparel,Sports Jerseys,53.98,110.66,14
+339,Dumbbells Trade,Fitness Equipment,Dumbbells,58.61,90.85,26
+340,Trail Mix Able,Healthy Snacks,Trail Mix,41.35,82.29,34
+341,Organic Snacks Page,Healthy Snacks,Organic Snacks,31.73,69.17,5
+342,Sports Jerseys There,Sports Apparel,Sports Jerseys,17.31,33.24,16
+343,Compression Wear Little,Sports Apparel,Compression Wear,86.13,149.87,77
+344,Yoga Mats Nor,Fitness Equipment,Yoga Mats,5.68,11.59,54
+345,Sports Jerseys Author,Sports Apparel,Sports Jerseys,74.60,136.52,39
+346,Organic Snacks Now,Healthy Snacks,Organic Snacks,80.45,107.00,15
+347,Dried Fruits Happy,Healthy Snacks,Dried Fruits,110.25,148.84,82
+348,Organic Snacks Why,Healthy Snacks,Organic Snacks,52.27,85.72,36
+349,Compression Wear Treatment,Sports Apparel,Compression Wear,115.28,191.36,70
+350,Treadmills Number,Fitness Equipment,Treadmills,22.51,48.85,72
+351,Protein Bars Land,Healthy Snacks,Protein Bars,133.61,203.09,30
+352,Organic Snacks Pretty,Healthy Snacks,Organic Snacks,127.26,267.25,27
+353,Running Shoes While,Sports Apparel,Running Shoes,44.05,88.98,63
+354,Trail Mix Book,Healthy Snacks,Trail Mix,21.14,27.90,83
+355,Dried Fruits Pass,Healthy Snacks,Dried Fruits,49.68,69.06,2
+356,Yoga Mats Enjoy,Fitness Equipment,Yoga Mats,6.69,14.12,41
+357,Organic Snacks Picture,Healthy Snacks,Organic Snacks,131.73,248.97,42
+358,Dried Fruits Today,Healthy Snacks,Dried Fruits,36.36,50.90,45
+359,Resistance Bands First,Fitness Equipment,Resistance Bands,5.86,9.96,97
+360,Sports Bras Recognize,Sports Apparel,Sports Bras,122.10,194.14,89
+361,Trail Mix Tax,Healthy Snacks,Trail Mix,147.41,297.77,24
+362,Yoga Mats Improve,Fitness Equipment,Yoga Mats,138.46,180.00,8
+363,Exercise Bikes Foot,Fitness Equipment,Exercise Bikes,120.78,182.38,33
+364,Protein Bars Nation,Healthy Snacks,Protein Bars,77.02,102.44,27
+365,Sports Bras Within,Sports Apparel,Sports Bras,25.80,42.05,70
+366,Exercise Bikes Opportunity,Fitness Equipment,Exercise Bikes,100.13,158.21,4
+367,Yoga Mats Likely,Fitness Equipment,Yoga Mats,98.29,207.39,25
+368,Yoga Mats Add,Fitness Equipment,Yoga Mats,53.34,100.81,16
+369,Protein Bars Show,Healthy Snacks,Protein Bars,106.08,234.44,24
+370,Workout Leggings Cost,Sports Apparel,Workout Leggings,41.94,60.39,3
+371,Energy Drinks Land,Healthy Snacks,Energy Drinks,125.59,239.88,6
+372,Dried Fruits Rate,Healthy Snacks,Dried Fruits,33.83,73.75,64
+373,Yoga Mats Lose,Fitness Equipment,Yoga Mats,93.17,165.84,75
+374,Protein Bars Do,Healthy Snacks,Protein Bars,105.80,239.11,88
+375,Trail Mix Save,Healthy Snacks,Trail Mix,92.45,196.92,57
+376,Workout Leggings Candidate,Sports Apparel,Workout Leggings,124.38,215.18,87
+377,Yoga Mats Evidence,Fitness Equipment,Yoga Mats,79.28,135.57,96
+378,Workout Leggings Town,Sports Apparel,Workout Leggings,26.29,38.91,27
+379,Yoga Mats Need,Fitness Equipment,Yoga Mats,29.49,38.63,68
+380,Resistance Bands Daughter,Fitness Equipment,Resistance Bands,36.46,78.39,11
+381,Workout Leggings Against,Sports Apparel,Workout Leggings,40.66,85.39,42
+382,Sports Bras Theory,Sports Apparel,Sports Bras,54.87,122.91,59
+383,Compression Wear Party,Sports Apparel,Compression Wear,137.65,313.84,54
+384,Dried Fruits Simply,Healthy Snacks,Dried Fruits,98.40,137.76,68
+385,Sports Bras Audience,Sports Apparel,Sports Bras,21.29,35.98,39
+386,Organic Snacks Really,Healthy Snacks,Organic Snacks,90.36,160.84,31
+387,Sports Jerseys Over,Sports Apparel,Sports Jerseys,49.63,107.70,12
+388,Energy Drinks Eye,Healthy Snacks,Energy Drinks,50.78,114.76,34
+389,Resistance Bands Short,Fitness Equipment,Resistance Bands,62.42,106.74,63
+390,Trail Mix Interview,Healthy Snacks,Trail Mix,15.85,24.41,69
+391,Compression Wear Natural,Sports Apparel,Compression Wear,124.26,270.89,72
+392,Yoga Mats Partner,Fitness Equipment,Yoga Mats,74.62,122.38,53
+393,Yoga Mats Born,Fitness Equipment,Yoga Mats,94.29,186.69,87
+394,Organic Snacks Other,Healthy Snacks,Organic Snacks,139.06,219.71,73
+395,Running Shoes Street,Sports Apparel,Running Shoes,100.50,169.85,41
+396,Compression Wear Always,Sports Apparel,Compression Wear,69.76,112.31,62
+397,Organic Snacks Voice,Healthy Snacks,Organic Snacks,81.07,105.39,12
+398,Sports Bras Rather,Sports Apparel,Sports Bras,53.20,96.82,48
+399,Sports Bras And,Sports Apparel,Sports Bras,41.22,75.02,30
+400,Sports Bras Start,Sports Apparel,Sports Bras,116.02,158.95,57
+401,Resistance Bands Street,Fitness Equipment,Resistance Bands,13.85,24.24,3
+402,Yoga Mats Whom,Fitness Equipment,Yoga Mats,96.49,177.54,46
+403,Sports Bras Share,Sports Apparel,Sports Bras,53.71,98.29,65
+404,Dried Fruits Beat,Healthy Snacks,Dried Fruits,14.50,25.23,64
+405,Exercise Bikes Go,Fitness Equipment,Exercise Bikes,20.89,34.89,58
+406,Dumbbells Nor,Fitness Equipment,Dumbbells,58.34,103.85,65
+407,Workout Leggings Develop,Sports Apparel,Workout Leggings,36.52,69.39,92
+408,Trail Mix Cause,Healthy Snacks,Trail Mix,96.44,165.88,99
+409,Dumbbells Support,Fitness Equipment,Dumbbells,48.08,63.95,62
+410,Yoga Mats Computer,Fitness Equipment,Yoga Mats,87.30,178.09,85
+411,Yoga Mats Theory,Fitness Equipment,Yoga Mats,71.20,146.67,11
+412,Dried Fruits Three,Healthy Snacks,Dried Fruits,25.06,56.89,32
+413,Sports Jerseys Agent,Sports Apparel,Sports Jerseys,136.81,199.74,80
+414,Resistance Bands War,Fitness Equipment,Resistance Bands,98.09,147.14,90
+415,Dumbbells Design,Fitness Equipment,Dumbbells,111.11,182.22,31
+416,Trail Mix International,Healthy Snacks,Trail Mix,120.03,236.46,4
+417,Resistance Bands Organization,Fitness Equipment,Resistance Bands,28.86,52.24,25
+418,Treadmills Child,Fitness Equipment,Treadmills,142.61,293.78,67
+419,Sports Jerseys Yeah,Sports Apparel,Sports Jerseys,137.73,241.03,54
+420,Treadmills Sell,Fitness Equipment,Treadmills,88.45,146.83,81
+421,Workout Leggings Light,Sports Apparel,Workout Leggings,109.02,164.62,55
+422,Protein Bars Woman,Healthy Snacks,Protein Bars,143.97,270.66,35
+423,Workout Leggings Eight,Sports Apparel,Workout Leggings,12.85,25.44,31
+424,Dumbbells Begin,Fitness Equipment,Dumbbells,15.31,34.75,81
+425,Sports Jerseys Yourself,Sports Apparel,Sports Jerseys,87.67,186.74,56
+426,Dried Fruits Where,Healthy Snacks,Dried Fruits,132.24,286.96,64
+427,Dumbbells Statement,Fitness Equipment,Dumbbells,25.33,37.24,73
+428,Workout Leggings Source,Sports Apparel,Workout Leggings,106.25,192.31,79
+429,Organic Snacks May,Healthy Snacks,Organic Snacks,19.18,26.28,41
+430,Sports Bras Challenge,Sports Apparel,Sports Bras,137.87,285.39,16
+431,Sports Jerseys Mrs,Sports Apparel,Sports Jerseys,104.88,232.83,79
+432,Running Shoes Up,Sports Apparel,Running Shoes,8.91,16.75,87
+433,Exercise Bikes Describe,Fitness Equipment,Exercise Bikes,41.52,60.20,2
+434,Dried Fruits Lead,Healthy Snacks,Dried Fruits,13.03,20.72,59
+435,Treadmills Miss,Fitness Equipment,Treadmills,65.30,127.99,64
+436,Workout Leggings His,Sports Apparel,Workout Leggings,30.05,68.81,45
+437,Sports Bras Program,Sports Apparel,Sports Bras,25.76,43.28,46
+438,Workout Leggings Successful,Sports Apparel,Workout Leggings,7.89,13.33,58
+439,Organic Snacks Simple,Healthy Snacks,Organic Snacks,120.99,278.28,49
+440,Energy Drinks Hospital,Healthy Snacks,Energy Drinks,120.79,181.19,77
+441,Running Shoes Ask,Sports Apparel,Running Shoes,81.67,138.84,56
+442,Trail Mix Own,Healthy Snacks,Trail Mix,21.13,28.31,17
+443,Workout Leggings Floor,Sports Apparel,Workout Leggings,136.25,267.05,38
+444,Trail Mix Red,Healthy Snacks,Trail Mix,102.64,175.51,5
+445,Compression Wear Though,Sports Apparel,Compression Wear,142.92,304.42,39
+446,Dumbbells Thank,Fitness Equipment,Dumbbells,116.19,176.61,11
+447,Sports Bras Call,Sports Apparel,Sports Bras,26.98,46.68,43
+448,Yoga Mats Buy,Fitness Equipment,Yoga Mats,36.04,77.85,63
+449,Sports Bras Big,Sports Apparel,Sports Bras,89.49,197.77,73
+450,Exercise Bikes Magazine,Fitness Equipment,Exercise Bikes,116.12,240.37,68
+451,Sports Jerseys Although,Sports Apparel,Sports Jerseys,72.47,105.81,58
+452,Protein Bars Suddenly,Healthy Snacks,Protein Bars,103.08,220.59,54
+453,Dumbbells Owner,Fitness Equipment,Dumbbells,24.95,52.15,88
+454,Dumbbells Natural,Fitness Equipment,Dumbbells,23.59,32.79,95
+455,Compression Wear Somebody,Sports Apparel,Compression Wear,99.15,206.23,33
+456,Dried Fruits Process,Healthy Snacks,Dried Fruits,107.76,209.05,60
+457,Organic Snacks There,Healthy Snacks,Organic Snacks,21.54,30.59,27
+458,Dumbbells Style,Fitness Equipment,Dumbbells,14.66,20.67,10
+459,Energy Drinks Yourself,Healthy Snacks,Energy Drinks,94.99,135.84,62
+460,Exercise Bikes Woman,Fitness Equipment,Exercise Bikes,118.12,230.33,47
+461,Dumbbells Eat,Fitness Equipment,Dumbbells,58.85,131.82,15
+462,Protein Bars Rule,Healthy Snacks,Protein Bars,114.14,246.54,1
+463,Dried Fruits Husband,Healthy Snacks,Dried Fruits,19.64,43.60,24
+464,Trail Mix Speak,Healthy Snacks,Trail Mix,118.54,225.23,76
+465,Sports Jerseys Box,Sports Apparel,Sports Jerseys,143.11,227.54,91
+466,Sports Bras Child,Sports Apparel,Sports Bras,134.72,235.76,93
+467,Organic Snacks Management,Healthy Snacks,Organic Snacks,29.02,59.20,7
+468,Treadmills Mind,Fitness Equipment,Treadmills,52.80,109.82,67
+469,Treadmills Threat,Fitness Equipment,Treadmills,68.09,103.50,34
+470,Protein Bars Lead,Healthy Snacks,Protein Bars,68.28,90.81,98
+471,Treadmills Morning,Fitness Equipment,Treadmills,137.55,270.97,7
+472,Exercise Bikes War,Fitness Equipment,Exercise Bikes,82.41,172.24,54
+473,Sports Bras Inside,Sports Apparel,Sports Bras,44.96,100.26,47
+474,Resistance Bands Land,Fitness Equipment,Resistance Bands,81.12,135.47,97
+475,Trail Mix Argue,Healthy Snacks,Trail Mix,76.08,149.12,95
+476,Dried Fruits Fall,Healthy Snacks,Dried Fruits,68.99,113.83,18
+477,Organic Snacks Produce,Healthy Snacks,Organic Snacks,69.03,124.25,3
+478,Sports Jerseys Idea,Sports Apparel,Sports Jerseys,107.62,191.56,78
+479,Dumbbells Six,Fitness Equipment,Dumbbells,87.25,120.41,57
+480,Yoga Mats Administration,Fitness Equipment,Yoga Mats,136.07,280.30,16
+481,Resistance Bands Since,Fitness Equipment,Resistance Bands,83.51,140.30,59
+482,Energy Drinks Six,Healthy Snacks,Energy Drinks,55.72,124.26,38
+483,Exercise Bikes Stop,Fitness Equipment,Exercise Bikes,47.01,91.67,34
+484,Treadmills Where,Fitness Equipment,Treadmills,130.50,275.36,35
+485,Organic Snacks Management,Healthy Snacks,Organic Snacks,86.66,131.72,52
+486,Organic Snacks Film,Healthy Snacks,Organic Snacks,67.79,147.10,62
+487,Dried Fruits Look,Healthy Snacks,Dried Fruits,44.23,84.04,62
+488,Resistance Bands Economy,Fitness Equipment,Resistance Bands,116.89,224.43,45
+489,Exercise Bikes Ask,Fitness Equipment,Exercise Bikes,73.92,124.92,13
+490,Trail Mix Party,Healthy Snacks,Trail Mix,140.88,226.82,28
+491,Dumbbells News,Fitness Equipment,Dumbbells,50.70,93.80,24
+492,Organic Snacks Hot,Healthy Snacks,Organic Snacks,123.17,166.28,64
+493,Exercise Bikes Yard,Fitness Equipment,Exercise Bikes,131.17,246.60,51
+494,Resistance Bands Economic,Fitness Equipment,Resistance Bands,127.51,247.37,5
+495,Dried Fruits Happy,Healthy Snacks,Dried Fruits,88.77,119.84,61
+496,Exercise Bikes Fund,Fitness Equipment,Exercise Bikes,147.12,273.64,50
+497,Trail Mix Let,Healthy Snacks,Trail Mix,46.15,99.68,72
+498,Trail Mix Least,Healthy Snacks,Trail Mix,54.57,108.05,4
+499,Dried Fruits Concern,Healthy Snacks,Dried Fruits,57.89,100.73,23
+500,Protein Bars Not,Healthy Snacks,Protein Bars,105.13,175.57,84
