@@ -16,6 +16,15 @@ table _Measures
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure 'Average Ticket Price' = AVERAGE(Sales[SalePrice])
+		lineageTag: e35eb6d5-bf0d-4540-94c8-340129c82a54
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Sales Transactions' = COUNTROWS(Sales)
+		formatString: 0
+		lineageTag: 701717a8-4743-46a9-bd21-9a0160bd8d82
+
 	partition _Measures = m
 		mode: import
 		source =
