@@ -9703,7 +9703,7 @@ cultureInfo en-US
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "_Measures",
-			          "ConceptualProperty": "Total Sales Transactions"
+			          "ConceptualProperty": "Quantity of Sales"
 			        }
 			      },
 			      "State": "Generated",

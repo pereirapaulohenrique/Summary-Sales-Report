@@ -21,9 +21,33 @@ table _Measures
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure 'Total Sales Transactions' = COUNTROWS(Sales)
+	measure 'Quantity of Sales' = COUNTROWS(Sales)
 		formatString: 0
 		lineageTag: 701717a8-4743-46a9-bd21-9a0160bd8d82
+
+	measure 'YTD Quantity of Sales' = TOTALYTD([Quantity of Sales], 'Calendar'[Date])
+		formatString: 0
+		lineageTag: 11ac6f6e-afea-4d4e-a241-550a84a524fd
+
+	measure 'YTD Revenue' = TOTALYTD([Sales Revenue], 'Calendar'[Date])
+		lineageTag: 7db96421-c137-46b4-ad62-87325a0e009e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'YTD Cost' = TOTALYTD([Total Cost], 'Calendar'[Date])
+		lineageTag: 9477bd96-c38c-4c06-885c-46f64ab2061c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'YTD GP' = TOTALYTD([Gross Profit], 'Calendar'[Date])
+		lineageTag: 900499ee-ab8b-4ea2-9bfd-d0199679c2a6
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'YTD Ticket Price' = TOTALYTD([Average Ticket Price], 'Calendar'[Date])
+		lineageTag: 9b891c7e-0e86-4b2a-bf06-cdbf2acef95e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	partition _Measures = m
 		mode: import
